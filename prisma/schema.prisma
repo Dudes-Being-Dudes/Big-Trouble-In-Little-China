@@ -1,0 +1,33 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Items {
+  id Int @id @default(autoincrement())
+  name String
+  price Int
+  description String
+  imageUrl String
+  isSpicy Boolean? @default(false)
+  isVegan Boolean? @default(false)
+  isVegetarian Boolean? @default(false)
+  isDairyFree Boolean? @default(false)
+  isGlutenFree Boolean? @default(false)
+  category_id Int?
+  categories Categories? @relation(fields: [category_id], references: [id])
+}
+
+model Categories {
+  id Int @id @default(autoincrement())
+  name String
+  item Items[]
+}
+
