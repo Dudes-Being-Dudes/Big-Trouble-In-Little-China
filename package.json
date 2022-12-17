@@ -8,5 +8,24 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
     "pg": "^8.8.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "big-trouble-in-little-china",
+  "description": "China Center Restaurant Menu Located In Salinas, CA",
+  "version": "1.0.0",
+  "main": "HiWilson.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dudes-Being-Dudes/Big-Trouble-In-Little-China.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dudes-Being-Dudes/Big-Trouble-In-Little-China/issues"
+  },
+  "homepage": "https://github.com/Dudes-Being-Dudes/Big-Trouble-In-Little-China#readme"
 }
