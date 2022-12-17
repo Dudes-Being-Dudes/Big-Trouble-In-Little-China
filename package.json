@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@prisma/client": "^4.7.1",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -16,7 +17,9 @@
   "description": "China Center Restaurant Menu Located In Salinas, CA",
   "version": "1.0.0",
   "main": "HiWilson.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prisma": "^4.7.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dudes-Being-Dudes/Big-Trouble-In-Little-China.git"
