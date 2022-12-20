@@ -9,3 +9,5 @@ itemsRouter.get(
     res.send(items);
   })
 );
+
+module.exports = itemsRouter;
