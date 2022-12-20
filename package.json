@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@prisma/client": "^4.7.1",
+    "@prisma/client": "^4.8.0",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -11,14 +11,15 @@
     "pg": "^8.8.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "name": "big-trouble-in-little-china",
   "description": "China Center Restaurant Menu Located In Salinas, CA",
   "version": "1.0.0",
   "main": "HiWilson.js",
   "devDependencies": {
-    "prisma": "^4.7.1"
+    "prisma": "^4.8.0"
   },
   "repository": {
     "type": "git",

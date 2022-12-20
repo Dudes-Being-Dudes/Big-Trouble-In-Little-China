@@ -9,3 +9,5 @@ categoriesRouter.get(
     res.send(categories);
   })
 );
+
+module.exports = categoriesRouter;
