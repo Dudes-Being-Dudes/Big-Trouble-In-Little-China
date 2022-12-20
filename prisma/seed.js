@@ -3,17 +3,6 @@ const prisma = require("../prisma/prisma");
 const { Items, Categories } = require("./seedData");
 
 const seedDb = async () => {
-  //seeding items
-  console.log("creating Items");
-  await Promise.all(
-    Items.map(async (item) => {
-      return prisma.Items.create({
-        data: item,
-      });
-    })
-  );
-  console.log("Finished creating items");
-
   //seeding our Categories
   console.log("creating Categories");
   await Promise.all(
@@ -25,6 +14,16 @@ const seedDb = async () => {
   );
 
   console.log("Finished creating Categories");
+  //seeding items
+  console.log("creating Items");
+  await Promise.all(
+    Items.map(async (item) => {
+      return prisma.Items.create({
+        data: item,
+      });
+    })
+  );
+  console.log("Finished creating items");
 };
 
 const initDb = async () => {

@@ -13,7 +13,7 @@ datasource db {
 model Items {
   id Int @id @default(autoincrement())
   name String
-  price Int
+  price Float
   description String
   imageUrl String
   isSpicy Boolean? @default(false)
