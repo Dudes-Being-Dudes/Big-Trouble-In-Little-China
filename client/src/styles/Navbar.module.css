@@ -1,0 +1,21 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: white;
+  border-bottom: 1px solid red;
+}
+
+.link2 {
+  text-decoration: none;
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+}
+
+.link2:hover {
+  background-color: red;
+  color: white;
+}

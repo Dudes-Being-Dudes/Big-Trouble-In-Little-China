@@ -8,7 +8,7 @@ import Categories from "./components/Categories";
 function App() {
   return (
     <div className="App">
-      <div className="App bg-stone-100">
+      <div className="App">
         <NavBar />
         <Routes>
           <Route path="/items" element={<Items />} />
