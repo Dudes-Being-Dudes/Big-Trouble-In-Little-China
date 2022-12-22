@@ -1,10 +1,21 @@
 import "./App.css";
 import Items from "./components/Items";
+import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router-dom";
+import Menu from "./components/Menu";
+import Categories from "./components/Categories";
 
 function App() {
   return (
     <div className="App">
-      <Items />
+      <div className="App bg-stone-100">
+        <NavBar />
+        <Routes>
+          <Route path="/items" element={<Items />} />
+          <Route path="/categories/:categoryId" element={<Categories />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+      </div>
     </div>
   );
 }
