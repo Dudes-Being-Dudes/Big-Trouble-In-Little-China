@@ -6,13 +6,14 @@ import { Navigate, useNavigate } from "react-router-dom";
 export default function MenuDropdown() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="z-index:-1 flex justify-center mb-2">
       <DropdownButton
         id="dropdown-button-dark-example2"
         variant="secondary"
         menuVariant="dark"
+        align="center"
         title="Categories"
-        className="mt-2"
+        className="mt-2 btn btn-secondary z-index:-1"
       >
         <Dropdown.Item
           onClick={() => {
