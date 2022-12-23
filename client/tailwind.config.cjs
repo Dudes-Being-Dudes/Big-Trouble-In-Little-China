@@ -7,7 +7,14 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: "390px",
+      },
+      colors: {
+        phoRed: "#E21837",
+      },
+    },
   },
   plugins: [],
 };

@@ -5,7 +5,7 @@
 
 .link:hover {
   color: white;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #e21837;
 }
 
 .link2 {
@@ -16,6 +16,6 @@
 }
 
 .link2:hover {
-  background-color: red;
+  background-color: #e21837;
   color: white;
 }
