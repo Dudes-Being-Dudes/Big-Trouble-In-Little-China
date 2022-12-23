@@ -60,7 +60,7 @@ export default function NavBar() {
       </div>{" "}
       <section
         id="mobile-menu"
-        class="sticky top-0 bg-phoRed w-full text-5xl flex flex-col
+        class="sticky top-0 bg-phoRed w-full text-5xl flex-col
          justify-content-center origin-top animate-open-menu hidden"
       >
         <button
