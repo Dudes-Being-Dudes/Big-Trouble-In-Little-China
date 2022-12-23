@@ -46,7 +46,7 @@ export default function Categories() {
 
   return (
     <>
-      <MenuDropdown />
+      {/* <MenuDropdown /> */}
       <h2 class="flex justify-center">{`${catDict[catId]}`} </h2>
       <div class="grid lg:grid-cols-4 gap-6 md:grid-cols-2  flex-wrap justify-around ">
         {catItems.map((item) => {
