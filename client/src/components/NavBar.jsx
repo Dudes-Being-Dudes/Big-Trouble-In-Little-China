@@ -1,16 +1,19 @@
 import React from "react";
-
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import styles from "../styles/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Hamboiger from "./HamburgerMenu";
 export default function NavBar() {
-  const hamburgerBtn = document.getElementById("hamburger-button");
+  const [open, setOpen] = useState(false);
   const mobileMenu = document.getElementById("mobile-menu");
+  console.log("element by id:", mobileMenu);
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle("hidden");
+    console.log("classlist:", mobileMenu.classList);
     mobileMenu.classList.toggle("flex");
   };
 
@@ -26,42 +29,46 @@ export default function NavBar() {
           id="hamburger-button"
           className="text-3xl cursor-pointer md:hidden block absolute right-5 hover:text-phoRed"
           onClick={() => {
-            toggleMenu();
+            setOpen(!open);
           }}
           icon={faBars}
         />
-        <div
-          className="flex flex-row gap-x-12 justify-between md:flex md:items-center z-[-1] md:z-auto  md:static 
+        {open ? (
+          <Hamboiger />
+        ) : (
+          <div
+            className="flex flex-row gap-x-12 justify-between md:flex md:items-center z-[-1] md:z-auto  md:static 
         absolute w-full left-0 md:w-full md:py-0 py-4 md:pl-0 pl-7 top-[-400px] transition-all ease-in duration-500"
-        >
-          <div className="flex flex-row items-center gap-x-4 text-xl items-center">
-            {" "}
-            <Link className={styles.link} to="/menu">
-              MENU
-            </Link>
-            <Link className={styles.link} to="/info">
-              LOCATION
-            </Link>
-            <Link className={styles.link} to="/story">
-              ABOUT US
-            </Link>
-          </div>
+          >
+            <div className="flex flex-row items-center gap-x-4 text-xl items-center">
+              {" "}
+              <Link className={styles.link} to="/menu">
+                MENU
+              </Link>
+              <Link className={styles.link} to="/info">
+                LOCATION
+              </Link>
+              <Link className={styles.link} to="/story">
+                ABOUT US
+              </Link>
+            </div>
 
-          <div class="flex gap-x-1 mr-16">
-            {" "}
-            <Link className={styles.link2} to="/specials">
-              LUNCH SPECIAL
-            </Link>
-            <Link className={styles.link2} to="/info">
-              CONTACT US
-            </Link>
+            <div class="flex gap-x-1 mr-16">
+              {" "}
+              <Link className={styles.link2} to="/specials">
+                LUNCH SPECIAL
+              </Link>
+              <Link className={styles.link2} to="/info">
+                CONTACT US
+              </Link>
+            </div>
           </div>
-        </div>
+        )}
       </div>{" "}
       <section
         id="mobile-menu"
-        class="sticky top-0 bg-phoRed w-full text-5xl flex-col
-         justify-content-center origin-top animate-open-menu hidden"
+        class="hidden sticky top-0 bg-phoRed w-full text-5xl flex-col
+         justify-content-center origin-top animate-open-menu"
       >
         <button
           className="text-8xl self-end px-6 text-white"
