@@ -2065,12 +2065,9 @@ const Categories = [
   },
   {
     id: 14,
-    name: "Beer",
-  },
-  {
-    id: 15,
     name: "Drinks",
   },
+
   {
     id: 16,
     name: "Sides",
