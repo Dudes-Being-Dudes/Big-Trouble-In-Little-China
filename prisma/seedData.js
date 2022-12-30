@@ -111,6 +111,31 @@ const Items = [
     category_id: 1,
     imageUrl: "",
   },
+  {
+    name: "French Fries",
+    price: 6.0,
+    description: "Crispy fried french fries",
+    isSpicy: false,
+    isVegan: true,
+    isVegetarian: true,
+    isDairyFree: true,
+    isGlutenFree: false,
+    category_id: 1,
+    imageUrl: "",
+  },
+  {
+    name: "Shrimp Chips",
+    price: 6.0,
+    description:
+      "Colorful fried chips made of a mixture of dried shrimp and tapioca flour",
+    isSpicy: false,
+    isVegan: false,
+    isVegetarian: false,
+    isDairyFree: true,
+    isGlutenFree: false,
+    category_id: 1,
+    imageUrl: "",
+  },
   // Wonton Noodle Soup
   {
     name: "Hot & Sour Soup",
@@ -1924,7 +1949,7 @@ const Items = [
     imageUrl: "",
   },
   {
-    name: "Domestic",
+    name: "Domestic Beer",
     price: 5,
     description: "Budlight, Coors",
     isSpicy: false,
@@ -1936,7 +1961,7 @@ const Items = [
     imageUrl: "",
   },
   {
-    name: "Imported",
+    name: "Imported Beer",
     price: 6,
     description: "Modelo, Corona, Tsingtao",
     isSpicy: false,
@@ -1956,7 +1981,7 @@ const Items = [
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
-    category_id: 15,
+    category_id: 14,
     imageUrl: "",
   },
   {
@@ -1968,7 +1993,7 @@ const Items = [
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
-    category_id: 15,
+    category_id: 14,
     imageUrl: "",
   },
   {
@@ -1981,7 +2006,7 @@ const Items = [
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
-    category_id: 15,
+    category_id: 14,
     imageUrl: "",
   },
   {
@@ -1993,19 +2018,7 @@ const Items = [
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
-    category_id: 15,
-    imageUrl: "",
-  },
-  {
-    name: "French Fries",
-    price: 6.0,
-    description: "Crispy fried french fries",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 16,
+    category_id: 14,
     imageUrl: "",
   },
 ];
@@ -2066,11 +2079,6 @@ const Categories = [
   {
     id: 14,
     name: "Drinks",
-  },
-
-  {
-    id: 16,
-    name: "Sides",
   },
 ];
 

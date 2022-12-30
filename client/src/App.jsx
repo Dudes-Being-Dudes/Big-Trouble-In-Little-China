@@ -7,11 +7,11 @@ import Categories from "./components/Categories";
 import Info from "./components/Info";
 import Story from "./components/Story";
 import Specials from "./components/Specials";
-
+import Home from "./components/Home";
 function App() {
   return (
-    <div className="App ">
-      <div className="App">
+    <div>
+      <div>
         <NavBar />
 
         <Routes>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/info" element={<Info />} />
           <Route path="/story" element={<Story />} />
           <Route path="/specials" element={<Specials />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </div>
