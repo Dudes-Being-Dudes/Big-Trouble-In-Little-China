@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        background: "url('/src/assets/stockphoto1.jpg')",
+      },
       screens: {
         sm: "390px",
       },

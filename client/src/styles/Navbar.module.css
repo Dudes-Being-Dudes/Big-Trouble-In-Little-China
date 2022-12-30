@@ -1,6 +1,7 @@
 .link {
   text-decoration: none;
-  color: black;
+  color: white;
+  width: max-content;
 }
 
 .link:hover {
@@ -13,9 +14,20 @@
   padding: 0.75rem;
   background-color: black;
   color: white;
+  width: max-content;
 }
 
 .link2:hover {
   background-color: #e21837;
   color: white;
+}
+@media (max-width: 767px) {
+  .link {
+    display: none;
+  }
+}
+@media (max-width: 1039px) {
+  .link2 {
+    display: none;
+  }
 }

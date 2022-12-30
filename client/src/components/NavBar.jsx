@@ -11,25 +11,32 @@ export default function NavBar() {
 
   return (
     <>
-      {" "}
-      <div class=" bg-gradient-to-b from-black to-transparent h-16 opacity-60 w-full "></div>
-      <div class="flex items-center gap-x-32 mb-6 h-24">
-        <div class="flex justify-between items-center">
-          <h3 class="text-black ml-6 sm:ml-24">China Center</h3>
-        </div>
-        <FontAwesomeIcon
-          id="hamburger-button"
-          className="text-3xl cursor-pointer md:hidden block absolute right-5 hover:text-phoRed"
-          onClick={() => {
-            setOpen(!open);
-          }}
-          icon={faBars}
-        />
+      <div className="bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')]">
+        <div class=" bg-gradient-to-b from-black to-transparent h-16 opacity-60 w-full "></div>
+        <div class="flex items-center gap-x-32 mb-6 h-72">
+          <div class="flex justify-between items-center">
+            <Link
+              class="ml-6 sm:ml-24 text-4xl text-white text-decoration-none"
+              to="/"
+            >
+              China Center
+            </Link>
+          </div>
+          <FontAwesomeIcon
+            id="hamburger-button"
+            className="text-3xl text-white cursor-pointer lg:hidden block absolute right-5 hover:text-phoRed"
+            onClick={() => {
+              setOpen(!open);
+            }}
+            icon={faBars}
+          />
 
-        <div
-          className="flex flex-row gap-x-12 justify-between md:flex md:items-center z-[-1] md:z-auto  md:static 
-        absolute w-full left-0 md:w-full md:py-0 py-4 md:pl-0 pl-7 top-[-400px] transition-all ease-in duration-500"
-        >
+          <div
+            className="flex flex-row gap-x-12 md:flex md:items-center z-[-1] md:z-auto md:static 
+        absolute w-full left-0  md:w-full md:py-0 py-4 md:pl-0 pl-7 top-[-400px] transition-all ease-in duration-500"
+          >
+            {" "}
+          </div>
           <div className="flex flex-row items-center gap-x-4 text-xl items-center">
             {" "}
             <Link className={styles.link} to="/menu">
@@ -43,22 +50,23 @@ export default function NavBar() {
             </Link>
           </div>
 
-          <div class="flex gap-x-1 mr-16">
+          <div class="flex gap-x-1 mr-48">
             {" "}
             <Link className={styles.link2} to="/specials">
-              LUNCH SPECIAL
+              SPECIALS
             </Link>
             <Link className={styles.link2} to="/info">
               CONTACT US
             </Link>
           </div>
-        </div>
-      </div>{" "}
+        </div>{" "}
+      </div>
+
       {open && (
         <section
           id="mobile-menu"
           class="sticky top-0 bg-phoRed w-full text-5xl flex-col
-         justify-content-center origin-top animate-open-menu"
+         justify-content-center origin-top animate-open-menu z-index:10"
         >
           <button
             className="text-8xl self-end px-6 text-white"

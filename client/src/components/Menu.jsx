@@ -12,7 +12,7 @@ export default function Menu() {
   return (
     <>
       {/* {<MenuDropdown />} */}
-      <div class="grid md:grid-cols-4 gap-6 md:grid-cols-2  ">
+      <div class="grid md:grid-cols-4 gap-6 md:grid-cols-2 ">
         {items.map((item) => {
           return (
             <div class=" flex flex-col border h-auto w-auto gap-y-6 ml-2 items-center">
