@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 export default function Info() {
   return (
-    <div className="">
+    <div className="mt-6">
       <div className="flex justify-center items-center mb-6">
         <h3 className=" sm:opacity-0 md:opacity-100 ">Contact Us</h3>
       </div>
