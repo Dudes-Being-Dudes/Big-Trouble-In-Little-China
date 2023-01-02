@@ -8,6 +8,7 @@ import Info from "./components/Info";
 import Story from "./components/Story";
 import Specials from "./components/Specials";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/specials" element={<Specials />} />
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   );

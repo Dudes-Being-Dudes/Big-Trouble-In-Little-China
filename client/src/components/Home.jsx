@@ -12,7 +12,10 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div id="section1" className="mt-12 flex mr-12 justify-center">
+            <div
+              id="section1"
+              className="mt-12 flex mr-12 sm:flex-col md:flex-row justify-center"
+            >
               <div className=" mr-2 ml-12 flex flex-col items-center ">
                 <h1 className="bg-phoRed text-white p-4 flex justify-center shadow-md">
                   Careers
@@ -44,7 +47,7 @@ export default function Home() {
             <div>
               <div
                 id="section2"
-                className="shadow-md mt-24 flex justify-center"
+                className="shadow-md mt-24 flex justify-center sm:flex-col md:flex-row"
               >
                 <div className="mr-2 bg-white p-4">
                   <img className="shadow-md h-full w-full" src={truck} />
