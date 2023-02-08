@@ -16,7 +16,8 @@ export default function NavBar() {
         <div class="flex items-center gap-x-32 h-72">
           <div class="flex justify-between items-center">
             <Link
-              class="ml-6 sm:ml-24 text-4xl text-white text-decoration-none"
+              className={styles.header}
+              class="ml-6 sm:ml-24 text-4xl text-white text-decoration-none hover:bg-phoRed"
               to="/"
             >
               China Center
