@@ -1,11 +1,11 @@
-.header {
+.heady {
   margin-left: 5rem;
   font-size: 2.25rem; /* 36px */
   line-height: 2.5rem; /* 40px */
   text-decoration: none;
   color: white;
 }
-.header:hover {
+.heady:hover {
   color: white;
   border-bottom: 1px solid #e21837;
 }

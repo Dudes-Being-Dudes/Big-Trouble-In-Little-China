@@ -15,11 +15,7 @@ export default function NavBar() {
         <div class=" bg-gradient-to-b from-black to-transparent h-16 opacity-60 w-full "></div>
         <div class="flex items-center gap-x-32 h-72">
           <div class="flex justify-between items-center">
-            <Link
-              className={styles.header}
-              class="ml-6 sm:ml-24 text-4xl text-white text-decoration-none hover:bg-phoRed"
-              to="/"
-            >
+            <Link className={styles.heady} to="/">
               China Center
             </Link>
           </div>
