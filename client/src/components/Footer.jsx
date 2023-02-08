@@ -6,6 +6,7 @@ import {
   faGoogle,
   faYelp,
 } from "@fortawesome/free-brands-svg-icons";
+import styles from "../styles/Footer.module.css";
 
 export default function Footer() {
   const { email, setEmail } = useState();
@@ -100,9 +101,9 @@ export default function Footer() {
         </div>
         <div id="footer2" className="bg-black text-white flex py-12">
           <div className="flex gap-x-8 ml-4">
-            <a>Careers</a>
-            <a>Frequently Asked Questions</a>
-            <a>Covid-19 Policy</a>
+            <a className={styles.link}>Careers</a>
+            <a className={styles.link}>Frequently Asked Questions</a>
+            <a className={styles.link}>Covid-19 Policy</a>
             <a>@Copyright China Center</a>
           </div>
         </div>
