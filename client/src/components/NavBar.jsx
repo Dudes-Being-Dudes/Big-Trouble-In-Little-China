@@ -74,7 +74,7 @@ export default function NavBar() {
             &times;
           </button>
           <nav
-            className="flex flex-col min-h-screen items-center py-8"
+            className="flex flex-col min-h-screen items-center py-8 text-3xl"
             aria-label="mobile"
           >
             <Link

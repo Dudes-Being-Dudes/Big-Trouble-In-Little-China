@@ -1,6 +1,6 @@
 .heady {
   margin-left: 5rem;
-  font-size: 2.25rem; /* 36px */
+  font-size: 3rem; /* 36px */
   line-height: 2.5rem; /* 40px */
   text-decoration: none;
   color: white;
@@ -13,6 +13,7 @@
   text-decoration: none;
   color: white;
   width: max-content;
+  font-size: 1.2rem;
 }
 
 .link:hover {

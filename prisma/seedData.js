@@ -1039,6 +1039,7 @@ const Items = [
     category_id: 6,
     imageUrl: "",
   },
+  // Vegetarian
   {
     name: "Kung Pao Tofu",
     price: 12.95,
@@ -1257,6 +1258,7 @@ const Items = [
     category_id: 8,
     imageUrl: "",
   },
+  // Pork
   {
     name: "Sweet & Sour Pork",
     price: 12.95,
