@@ -11,7 +11,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')]">
+      <div className="bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] border-b-2 border-phoRed">
         <div class=" bg-gradient-to-b from-black to-transparent h-16 opacity-60 w-full "></div>
         <div class="flex items-center gap-x-32 h-72">
           <div class="flex justify-between items-center">

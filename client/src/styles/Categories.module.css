@@ -1,0 +1,10 @@
+.cat_bar {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #e21837;
+  padding: 0.275rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}

@@ -18,7 +18,7 @@ export default function Footer() {
         className="h-screen bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] h-full"
       >
         <div id="footer1">
-          <div className="flex md:flex-row border-2 border-red-400 bg-teal-100 sm:flex-col items-center my-12">
+          <div className="flex md:flex-row border-2 border-red-400 bg-teal-100 sm:flex-col items-center mb-12">
             <img className="sm:hidden md:block" src={takeout} />
             <div className="flex flex-col items-center md:border-r-2">
               <h3 className="my-6 text-2xl font-bold">NEWS AND OFFERS</h3>

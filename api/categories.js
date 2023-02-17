@@ -52,4 +52,17 @@ categoriesRouter.delete(
   })
 );
 
+//GET/api/categories/categoryId
+categoriesRouter.get(
+  "/:categoryId",
+  asyncErrorHandler(async (req, res, next) => {
+    const getCategory = await prisma.products.findMany({
+      where: {
+        category_id: +req.params.categoryId,
+      },
+    });
+    res.send(getCategory);
+  })
+);
+
 module.exports = categoriesRouter;

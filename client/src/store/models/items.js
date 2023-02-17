@@ -11,4 +11,8 @@ export const items = {
     const { data } = await axios.get("/api/items", payload);
     actions.setItems(data);
   }),
+  fetchItem: thunk(async (actions, payload) => {
+    const { data } = await axios.get(`/api/items/${payload}`);
+    actions.selectItem(data);
+  }),
 };

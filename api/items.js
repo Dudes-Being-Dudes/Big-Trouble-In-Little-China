@@ -91,5 +91,28 @@ itemsRouter.delete(
     res.send(deletedItem);
   })
 );
+itemsRouter.get(
+  "/:productId",
+  asyncErrorHandler(async (req, res, next) => {
+    const itemById = await prisma.items.findUnique({
+      where: {
+        id: +req.params.itemId,
+      },
+    });
+    res.send(itemById);
+  })
+);
+
+itemsRouter.get(
+  "/category/:categoryId",
+  asyncErrorHandler(async (req, res, next) => {
+    const categoryById = await prisma.products.findMany({
+      where: {
+        category_id: +req.params.categoryId,
+      },
+    });
+    res.send(categoryById);
+  })
+);
 
 module.exports = itemsRouter;

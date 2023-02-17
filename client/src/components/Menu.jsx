@@ -1,7 +1,8 @@
 import useItems from "../hooks/useItems";
 import { useEffect } from "react";
-import MenuDropdown from "./MenuDropdown";
+// import MenuDropdown from "./MenuDropdown";
 import styles from "../styles/Menu.module.css";
+import Categories from "./Categories";
 
 export default function Menu() {
   const { items, fetchItems } = useItems();
@@ -12,8 +13,11 @@ export default function Menu() {
 
   return (
     <>
-      {/* {<MenuDropdown />} */}
-      <div id="menu_top_page">
+      <div className="flex ">
+        <Categories />
+      </div>
+
+      {/* <div id="menu_top_page">
         <h1 className="flex m-2 items-center justify-center">The Menu</h1>
         <div id="menu_bar" className={styles.menu_bar}>
           <a>Starters</a>
@@ -28,9 +32,10 @@ export default function Menu() {
           <a>Family Dinner</a>
           <a>Drinks</a>
         </div>
-      </div>
+      </div> */}
       <div class="grid md:grid-cols-4 gap-6 md:grid-cols-2 ">
         {items.map((item) => {
+          console.log(items);
           return (
             <div class=" flex flex-col border h-auto w-auto gap-y-6 ml-2 items-center">
               <h3>{item.name}</h3>
