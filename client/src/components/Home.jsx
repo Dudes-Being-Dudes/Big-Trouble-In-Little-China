@@ -1,6 +1,8 @@
 import React from "react";
 import shef from "../assets/randomchinesechef1.jpg";
 import truck from "../assets/drawnFoodTruck.jpg";
+import styles from "../styles/Home.module.css";
+
 export default function Home() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Home() {
         </div>{" "}
         <div className="h-full mx-12">
           <div className="flex justify-center">
-            <div id="banner" className="bg-white">
+            <div id="banner" className={styles.banner}>
               <h1 className="text-6xl px-2">Family Operated Business</h1>
             </div>
           </div>

@@ -15,7 +15,6 @@ function App() {
     <div>
       <div>
         <NavBar />
-
         <Routes>
           <Route path="/items" element={<Items />} />
           <Route path="/categories" element={<Categories />} />

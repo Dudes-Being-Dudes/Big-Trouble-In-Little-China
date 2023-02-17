@@ -1,0 +1,4 @@
+.banner {
+  filter: drop-shadow(8px 4px 4px black);
+  color: white;
+}

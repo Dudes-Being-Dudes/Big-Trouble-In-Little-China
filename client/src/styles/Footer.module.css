@@ -7,3 +7,10 @@
 .link:hover {
   color: #ccfbf1;
 }
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 100%;
+  right: 0;
+}
