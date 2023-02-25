@@ -10,7 +10,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366657/China%20Center/Food%20Items/Apps/Eggroll_yj9gsj.jpg",
   },
   {
     name: "Fried Wonton",
@@ -22,7 +23,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366674/China%20Center/Food%20Items/Apps/Fried_Wtn_ngrl96.jpg",
   },
   {
     name: "Potstickers",
@@ -35,7 +37,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366679/China%20Center/Food%20Items/Apps/Pot_Stickers_at8ss2.jpg",
   },
   {
     name: "Fried Prawns",
@@ -47,7 +50,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366668/China%20Center/Food%20Items/Apps/Fried_Prawns_uwwgts.jpg",
   },
   {
     name: "Barbecue Pork",
@@ -59,7 +63,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366496/China%20Center/Food%20Items/Apps/BBQ_Pork_y3lrin.jpg",
   },
   {
     name: "Fried Chicken Wings",
@@ -134,7 +139,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366685/China%20Center/Food%20Items/Apps/Shrimp_Chips_hpj1tj.jpg",
   },
   // Wonton Noodle Soup
   {
@@ -160,7 +166,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366014/China%20Center/Food%20Items/Soup/Seaweed_Sp_fu1u0b.jpg",
   },
   {
     name: "Egg Flower Soup",
@@ -173,7 +180,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677365997/China%20Center/Food%20Items/Soup/Eggflower_Soup_l4iaxx.jpg",
   },
   {
     name: "Corn Chicken Soup",
@@ -209,7 +217,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366031/China%20Center/Food%20Items/Soup/Small_Wtn_rd4byo.jpg",
   },
   {
     name: "Shrimp Sizzling Rice Soup",
@@ -222,7 +231,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
   },
   {
     name: "Pork Wonton and/or Noodle Soup",
@@ -248,7 +258,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677365944/China%20Center/Food%20Items/Soup/Ch_Wtn_Ndl_vyucx0.jpg",
   },
   {
     name: "Beef Wonton and/or Noodle Soup",
@@ -274,7 +285,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
   },
   {
     name: "Wor Wonton and/or Noodle Soup",
@@ -287,7 +299,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366042/China%20Center/Food%20Items/Soup/WWT_lqolqa.jpg",
   },
   {
     name: "Shrimp Wonton and/or Noodle Soup",
@@ -300,7 +313,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366020/China%20Center/Food%20Items/Soup/Shr_Wtn_jq83ub.jpg",
   },
   {
     name: "Seafood Sizzling Rice Soup",
@@ -313,7 +327,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
   },
   // Fried Rice
   {
@@ -362,7 +377,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367115/China%20Center/Food%20Items/Fried%20Rice/P_FR_z1c6i8.jpg",
   },
   {
     name: "Beef Fried Rice",
@@ -387,7 +403,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367107/China%20Center/Food%20Items/Fried%20Rice/Fried_Rice_VEG_f9kcpl.jpg",
   },
   {
     name: "Special Fried Rice",
@@ -399,7 +416,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367102/China%20Center/Food%20Items/Fried%20Rice/Fried_Rice_SP_t1fh9g.jpg",
   },
   {
     name: "Shrimp Fried Rice",
@@ -438,7 +456,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367027/China%20Center/Food%20Items/Noods/Ch_Almond_CM_yczh06.jpg",
   },
   {
     name: "Pork Chow Mein",
@@ -476,7 +495,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367046/China%20Center/Food%20Items/Noods/SP_CM_wwh9hi.jpg",
   },
   {
     name: "Shrimp Chow Mein",
@@ -488,7 +508,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367040/China%20Center/Food%20Items/Noods/Shr_Cm_d0cldk.jpg",
   },
   {
     name: "Beef Chow Mein",
@@ -500,7 +521,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367024/China%20Center/Food%20Items/Noods/Bf_CM_cyh005.jpg",
   },
   {
     name: "Beef Tomato Chow Mein",
@@ -539,7 +561,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367032/China%20Center/Food%20Items/Noods/CH_Pansit_yohwdi.jpg",
   },
   {
     name: "Beef Chow Fun",
@@ -552,7 +575,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367018/China%20Center/Food%20Items/Noods/Bf_Chowfun_zgip65.jpg",
   },
   {
     name: "Seafood Chow Mein",
@@ -803,7 +827,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366895/China%20Center/Food%20Items/Chicken/Garlic_CH_qgf7th.jpg",
   },
   {
     name: "Kung Pao Chicken",
@@ -816,7 +841,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366891/China%20Center/Food%20Items/Chicken/Ch_KungPo_wfj1kd.jpg",
   },
   {
     name: "Chicken with Broccoli",
@@ -927,7 +953,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366925/China%20Center/Food%20Items/Chicken/Orange_Ch_ki0xuj.jpg",
   },
   {
     name: "Szechuan Chicken",
@@ -964,7 +991,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366906/China%20Center/Food%20Items/Chicken/General_CH_iyxq3m.jpg",
   },
   {
     name: "Chicken with Bitter Melon",
@@ -1013,7 +1041,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366916/China%20Center/Food%20Items/Chicken/Mandarin_House_CH_wulav5.jpg",
   },
   {
     name: "Black Mushroom Chicken",
@@ -1025,7 +1054,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366886/China%20Center/Food%20Items/Chicken/BMushroom_Ch_e0xmsi.jpg",
   },
   {
     name: "Chicken with Snow Peas",
@@ -1293,7 +1323,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367078/China%20Center/Food%20Items/Pork/Pork_Tofu_cbpujb.jpg",
   },
   {
     name: "Spareribs with Black Bean Sauce",
@@ -1306,7 +1337,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367071/China%20Center/Food%20Items/Pork/BBean_Sparewib_ofiqok.jpg",
   },
   {
     name: "Pork with Chinese Green",
@@ -1490,7 +1522,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366955/China%20Center/Food%20Items/From%20The%20Sea/BBean_Shrimp_bvqpl2.jpg",
   },
   {
     name: "Kung Pao Fish Fillet",
@@ -1541,7 +1574,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366965/China%20Center/Food%20Items/From%20The%20Sea/Pan_Fried_Shrimp_feozch.jpg",
   },
   {
     name: "Shrimp with Green Bean",
@@ -1602,7 +1636,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366979/China%20Center/Food%20Items/From%20The%20Sea/Walnut_Shrimp_wgbdql.jpg",
   },
   // Combination Plates
   {
@@ -1744,7 +1779,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366827/China%20Center/Food%20Items/Beef/Brocc_BF_g7kzda.jpg",
   },
   {
     name: "Beef Green Pepper",
@@ -1852,7 +1888,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366971/China%20Center/Food%20Items/From%20The%20Sea/Shr_Veg_c9dhvy.jpg",
   },
   {
     name: "Garlic Shrimp",
@@ -1864,7 +1901,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366960/China%20Center/Food%20Items/From%20The%20Sea/Garlic_Shrimp_go2tgz.jpg",
   },
   {
     name: "Mongolian Beef",
@@ -1876,7 +1914,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366836/China%20Center/Food%20Items/Beef/Mong_Bf_s14wfn.jpg",
   },
   {
     name: "Seafood Vegetable",

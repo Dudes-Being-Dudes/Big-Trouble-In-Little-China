@@ -13,7 +13,7 @@ export default function Menu() {
 
   return (
     <>
-      <div className="flex ">
+      <div className="flex md:mx-40 ">
         <Categories />
       </div>
 
@@ -33,15 +33,37 @@ export default function Menu() {
           <a>Drinks</a>
         </div>
       </div> */}
-      <div class="grid md:grid-cols-4 gap-6 md:grid-cols-2 ">
+      <div class="grid lg:grid-cols-5 md:grid-cols-4 gap-6 md:grid-cols-2 md:mx-32">
         {items.map((item) => {
           console.log(items);
           return (
-            <div class=" flex flex-col border h-auto w-auto gap-y-6 ml-2 items-center">
-              <h3>{item.name}</h3>
+            <div
+              id="card"
+              class="flex flex-col h-auto w-auto gap-y-8 ml-2
+               items-center bg-white text-gray-700 w-72 min-h-[10rem]
+                shadow-md rounded-md overflow-hidden"
+            >
+              <img
+                className="w-full h-full object-cover"
+                src={item.imageUrl}
+                alt="picture"
+              />
+              {/* tags add if statement for all the different tags */}
+              <div className="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
+                  Gluten free
+                </span>
+                <span class="px-3 py-1 rounded-full text-xs bg-red-100">
+                  Spicy
+                </span>
+              </div>
+              {/* product title */}
+              <h4 className="font-semibold text-xl">{item.name}</h4>
               {/* <p>{item.description}</p> */}
-              {/* <img className="h-40 mt-0" src={item.imageUrl} /> */}
-              <p>${item.price}</p>
+              {/* product price */}
+              <div>
+                <span className="text-xl font-bold">${item.price}</span>
+              </div>
             </div>
           );
         })}
