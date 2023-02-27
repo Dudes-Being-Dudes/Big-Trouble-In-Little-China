@@ -76,7 +76,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459944/China%20Center/Food%20Items/Apps/fr_ch_wing_bkwpz5.jpg",
   },
   {
     name: "Fried Squid",
@@ -341,7 +342,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460033/China%20Center/Food%20Items/Fried%20Rice/sm_rice_txyd3i.jpg",
   },
   {
     name: "Steamed Rice (L)",
@@ -353,7 +355,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460030/China%20Center/Food%20Items/Fried%20Rice/large_rice_gkqbqy.jpg",
   },
   {
     name: "Chicken Fried Rice",
@@ -365,7 +368,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459821/China%20Center/Food%20Items/Fried%20Rice/ch_fried_rice_ripmsg.jpg",
   },
   {
     name: "Pork Fried Rice",
@@ -628,7 +632,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459991/China%20Center/Food%20Items/Noods/hot_plate_trw5wn.jpg",
   },
   //Beef
   {
@@ -1182,7 +1187,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 8,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459915/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/egg_foo_yung_jpfriv.jpg",
   },
   {
     name: "Beef Egg Foo Yung",
@@ -1611,7 +1617,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460137/China%20Center/Food%20Items/From%20The%20Sea/shr_asp_m9bqec.jpg",
   },
   {
     name: "Seafood Vegetable",
@@ -1915,7 +1922,7 @@ const Items = [
     isGlutenFree: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366836/China%20Center/Food%20Items/Beef/Mong_Bf_s14wfn.jpg",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460071/China%20Center/Food%20Items/Beef/mong_bf_wcgrux.jpg",
   },
   {
     name: "Seafood Vegetable",
@@ -1975,7 +1982,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366925/China%20Center/Food%20Items/Chicken/Orange_Ch_ki0xuj.jpg",
   },
   {
     name: "Glass Wine",

@@ -35,7 +35,8 @@ export default function Menu() {
       </div> */}
       <div class="grid lg:grid-cols-5 md:grid-cols-4 gap-6 md:grid-cols-2 md:mx-32">
         {items.map((item) => {
-          console.log(items);
+          console.log("Items:", items);
+          console.log("Single item:", item);
           return (
             <div
               id="card"
@@ -46,16 +47,28 @@ export default function Menu() {
               <img
                 className="w-full h-full object-cover"
                 src={item.imageUrl}
-                alt="picture"
+                alt="Imagine Food"
               />
               {/* tags add if statement for all the different tags */}
               <div className="flex items-center gap-2">
-                <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
+                {items.map((item) => {
+                  {
+                    if (item.isGlutenFree === true) {
+                      return (
+                        <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
+                          Gluten Free
+                        </span>
+                      );
+                    }
+                  }
+                })}
+
+                {/* <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
                   Gluten free
                 </span>
                 <span class="px-3 py-1 rounded-full text-xs bg-red-100">
                   Spicy
-                </span>
+                </span> */}
               </div>
               {/* product title */}
               <h4 className="font-semibold text-xl">{item.name}</h4>
