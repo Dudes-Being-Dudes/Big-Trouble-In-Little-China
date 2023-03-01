@@ -37,6 +37,7 @@ export default function Menu() {
         {items.map((item) => {
           console.log("Items:", items);
           console.log("Single item:", item);
+
           return (
             <div
               id="card"
@@ -51,24 +52,26 @@ export default function Menu() {
               />
               {/* tags add if statement for all the different tags */}
               <div className="flex items-center gap-2">
-                {items.map((item) => {
-                  {
-                    if (item.isGlutenFree === true) {
-                      return (
-                        <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
-                          Gluten Free
-                        </span>
-                      );
-                    }
-                  }
-                })}
-
-                {/* <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
-                  Gluten free
-                </span>
-                <span class="px-3 py-1 rounded-full text-xs bg-red-100">
-                  Spicy
-                </span> */}
+                {item.isSpicy === true ? (
+                  <span class="px-3 py-1 rounded-full text-xs bg-red-100">
+                    Spicy
+                  </span>
+                ) : null}
+                {item.isGlutenFree === true ? (
+                  <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
+                    Gluten Free
+                  </span>
+                ) : null}
+                {item.isVegan === true ? (
+                  <span class="px-3 py-1 rounded-full text-xs bg-green-100">
+                    Vegan
+                  </span>
+                ) : null}
+                {item.isVegetarian === true ? (
+                  <span class="px-3 py-1 rounded-full text-xs bg-green-400">
+                    Veg
+                  </span>
+                ) : null}
               </div>
               {/* product title */}
               <h4 className="font-semibold text-xl">{item.name}</h4>
