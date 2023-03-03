@@ -155,7 +155,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: true,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787814/China%20Center/Food%20Items/Soup/hot_n_sour_rzn0uh.jpg",
   },
   {
     name: "Seaweed Soup",
@@ -273,7 +274,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787275/China%20Center/Food%20Items/Soup/bf_wtn_mtjyy2.jpg",
   },
   {
     name: "Combo Sizzling Rice Soup",
@@ -425,7 +427,7 @@ const Items = [
   },
   {
     name: "Shrimp Fried Rice",
-    price: 9.5,
+    price: 10.5,
     description: "Fried rice with egg, shrimp, & green onion",
     isSpicy: false,
     isVegan: false,
@@ -433,10 +435,24 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787088/China%20Center/Food%20Items/Fried%20Rice/shr_fr_gqnuui.jpg",
   },
 
   //Chow Mein
+  {
+    name: "Plain Chow Mein",
+    price: 9.95,
+    description: "Stir fried noodles with beansprouts & cabbage",
+    isSpicy: false,
+    isVegan: false,
+    isVegetarian: false,
+    isDairyFree: true,
+    isGlutenFree: false,
+    category_id: 4,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787173/China%20Center/Food%20Items/Noods/plain_cm_bie4u8.jpg",
+  },
   {
     name: "Chicken Chow Mein",
     price: 10.95,
@@ -486,7 +502,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787123/China%20Center/Food%20Items/Noods/veg_cm_sooolf.jpg",
   },
   {
     name: "Special Chow Mein",
@@ -619,7 +636,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787893/China%20Center/Food%20Items/Noods/singapore_chow_mein_mkpp8x.jpg",
   },
   {
     name: "House Pan Fried Noodle Sizzling Plate",
@@ -806,7 +824,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787186/China%20Center/Food%20Items/Beef/kp_bf_vvfu4m.jpg",
   },
   {
     name: "Szechaun Beef",
@@ -857,7 +876,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787852/China%20Center/Food%20Items/Beef/hunan_bf_naudfn.jpg",
   },
   {
     name: "Green Bean Beef",
@@ -935,7 +955,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787258/China%20Center/Food%20Items/Chicken/cashew_ch_snvy2a.jpg",
   },
   {
     name: "Almond Chicken",
@@ -1317,7 +1338,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 8,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787242/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/ho_su_tofu_bdpyel.jpg",
   },
   {
     name: "Special Chop Suey",
@@ -1330,7 +1352,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 8,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787156/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/special_cs_saibrj.jpg",
   },
   {
     name: "Shrimp Chop Suey",
@@ -1356,7 +1379,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787104/China%20Center/Food%20Items/Pork/ss_p_jcx3c2.jpg",
   },
   {
     name: "Pork with Beansprouts",
@@ -1697,7 +1721,7 @@ const Items = [
     isGlutenFree: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366979/China%20Center/Food%20Items/From%20The%20Sea/Walnut_Shrimp_wgbdql.jpg",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787142/China%20Center/Food%20Items/From%20The%20Sea/walnut_shr_lh2ads.jpg",
   },
   // Combination Plates
   {

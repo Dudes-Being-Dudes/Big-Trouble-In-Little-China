@@ -6,14 +6,14 @@ import Menu from "./components/Menu";
 import Categories from "./components/Categories";
 import SingleCategory from "./components/SingleCategory";
 import Info from "./components/Info";
-import Story from "./components/Story";
+import Story from "./components/AboutUs";
 import Specials from "./components/Specials";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <div>
+      <div className="bg-snow">
         <NavBar />
         <Routes>
           <Route path="/items" element={<Items />} />

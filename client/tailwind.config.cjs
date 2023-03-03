@@ -16,6 +16,9 @@ module.exports = {
       },
       colors: {
         phoRed: "#E21837",
+        offwhite: "#f5f5f5",
+        snow: "#FFFAFA",
+        ivory: "#FFFFF0",
       },
       keyframes: {
         "open-menu": {

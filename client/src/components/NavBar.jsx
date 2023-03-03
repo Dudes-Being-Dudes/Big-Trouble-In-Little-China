@@ -47,7 +47,7 @@ export default function NavBar() {
             </Link>
           </div>
 
-          <div class="flex gap-x-1 mr-48">
+          <div class="flex gap-x-1">
             {" "}
             <Link className={styles.link2} to="/specials">
               SPECIALS
@@ -111,7 +111,7 @@ export default function NavBar() {
                 setOpen(!open);
               }}
             >
-              Lunch Special
+              Lunch Special / Family Dinner
             </Link>
             <Link
               className="no-underline w-full text-center py-6 hover:opacity-90 text-white"

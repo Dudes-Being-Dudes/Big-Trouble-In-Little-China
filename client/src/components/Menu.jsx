@@ -1,7 +1,11 @@
 import useItems from "../hooks/useItems";
 import { useEffect } from "react";
-// import MenuDropdown from "./MenuDropdown";
-import styles from "../styles/Menu.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLeaf,
+  faPepperHot,
+  faSeedling,
+} from "@fortawesome/free-solid-svg-icons";
 import Categories from "./Categories";
 
 export default function Menu() {
@@ -17,22 +21,6 @@ export default function Menu() {
         <Categories />
       </div>
 
-      {/* <div id="menu_top_page">
-        <h1 className="flex m-2 items-center justify-center">The Menu</h1>
-        <div id="menu_bar" className={styles.menu_bar}>
-          <a>Starters</a>
-          <a>Soups</a>
-          <a>Fried Rice</a>
-          <a>Noodles</a>
-          <a>Meat Dishes</a>
-          <a>Vegetarian Dishes</a>
-          <a>Chop Suey / Egg Foo Yung</a>
-          <a>Seafood</a>
-          <a>Combo Plates</a>
-          <a>Family Dinner</a>
-          <a>Drinks</a>
-        </div>
-      </div> */}
       <div class="grid lg:grid-cols-5 md:grid-cols-4 gap-6 md:grid-cols-2 md:mx-32">
         {items.map((item) => {
           console.log("Items:", items);
@@ -53,24 +41,33 @@ export default function Menu() {
               {/* tags add if statement for all the different tags */}
               <div className="flex items-center gap-2">
                 {item.isSpicy === true ? (
-                  <span class="px-3 py-1 rounded-full text-xs bg-red-100">
-                    Spicy
-                  </span>
+                  <FontAwesomeIcon
+                    icon={faPepperHot}
+                    className="text-red-700 px-2 py-2 rounded-full"
+                    title="spicy"
+                  />
                 ) : null}
                 {item.isGlutenFree === true ? (
-                  <span class="px-3 py-1 rounded-full text-xs bg-gray-100">
-                    Gluten Free
+                  <span
+                    class="px-1 py-1 rounded-full bg-gray-100"
+                    title="gluten free"
+                  >
+                    GF
                   </span>
                 ) : null}
                 {item.isVegan === true ? (
-                  <span class="px-3 py-1 rounded-full text-xs bg-green-100">
-                    Vegan
-                  </span>
+                  <FontAwesomeIcon
+                    icon={faSeedling}
+                    className="px-2 py-2 rounded-full bg-green-100 text-emerald-600"
+                    title="vegan"
+                  />
                 ) : null}
                 {item.isVegetarian === true ? (
-                  <span class="px-3 py-1 rounded-full text-xs bg-green-400">
-                    Veg
-                  </span>
+                  <FontAwesomeIcon
+                    icon={faLeaf}
+                    className="px-2 py-2 rounded-full  text-green-400"
+                    title="vegetarian"
+                  />
                 ) : null}
               </div>
               {/* product title */}
