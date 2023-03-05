@@ -1,5 +1,5 @@
 import "./App.css";
-import Items from "./components/Items";
+
 import NavBar from "./components/NavBar";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu";
@@ -16,7 +16,6 @@ function App() {
       <div className="bg-snow">
         <NavBar />
         <Routes>
-          <Route path="/items" element={<Items />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<SingleCategory />} />
           <Route path="/menu" element={<Menu />} />

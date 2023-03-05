@@ -3,7 +3,7 @@ const Items = [
   {
     name: "Egg Rolls",
     price: 6.0,
-    description: "Crispy fried egg rolls, served with a sweet & sour dip",
+    description: "3 crispy eggrolls with cabbage, carrots",
     isSpicy: false,
     isVegan: false,
     isVegetarian: true,
@@ -16,7 +16,7 @@ const Items = [
   {
     name: "Fried Wonton",
     price: 7.5,
-    description: "Crispy fried wonton skins, served with a sweet & sour dip",
+    description: "12 crispy fried wonton skins",
     isSpicy: false,
     isVegan: false,
     isVegetarian: true,
@@ -29,8 +29,7 @@ const Items = [
   {
     name: "Potstickers",
     price: 10.5,
-    description:
-      "Savory Chinese potstickers, served with a chili & vinegar dip",
+    description: "8 potstickers filled with pork, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -43,7 +42,7 @@ const Items = [
   {
     name: "Fried Prawns",
     price: 10.5,
-    description: "Crispy fried prawns, served with a sweet & sour dip",
+    description: "8 fried prawns",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -56,7 +55,7 @@ const Items = [
   {
     name: "Barbecue Pork",
     price: 10.5,
-    description: "In our house marinade",
+    description: "barbeque pork made in house",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -69,7 +68,7 @@ const Items = [
   {
     name: "Fried Chicken Wings",
     price: 10.95,
-    description: "Fried chicken wings, served with a sweet & sour dip",
+    description: "8 fried chicken wings",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -82,7 +81,7 @@ const Items = [
   {
     name: "Fried Squid",
     price: 10.95,
-    description: "Tender fried squid, served with a sweet & sour dip",
+    description: "8 tender fried squid",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -95,20 +94,20 @@ const Items = [
     name: "Cream Cheese Crab Puff",
     price: 10.95,
     description:
-      "Crispy wonton shells filled with imitation crab meat and cream cheese, served with a sweet & sour dip",
+      "10 cream cheese crab puffs with imitation crab, onions, cream cheese",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: false,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990647/China%20Center/Food%20Items/Apps/ccp_a0zda1.jpg",
   },
   {
     name: "Assorted Appetizer (For 2)",
     price: 22.5,
-    description:
-      "An assortment of all our appetizers put together and shrimp chips, served with a sweet & sour dip",
+    description: "all appetizers in one big serving",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -120,7 +119,7 @@ const Items = [
   {
     name: "French Fries",
     price: 6.0,
-    description: "Crispy fried french fries",
+    description: "crispy fried french fries",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -133,7 +132,7 @@ const Items = [
     name: "Shrimp Chips",
     price: 6.0,
     description:
-      "Colorful fried chips made of a mixture of dried shrimp and tapioca flour",
+      "colorful fried prawn chips made with dried shrimp powder, tapioca flour",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -148,7 +147,7 @@ const Items = [
     name: "Hot & Sour Soup",
     price: 10.95,
     description:
-      "Pork, tofu, bamboo shoot, wood ear mushroom and creamy egg mixture in a hot & sour broth",
+      "pork, tofu, bamboo shoot, wood ear mushroom, creamy egg mixture",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -161,7 +160,8 @@ const Items = [
   {
     name: "Seaweed Soup",
     price: 10.95,
-    description: "Chicken, seaweed, and creamy egg mixture in an umami broth",
+    description:
+      "chicken, seaweed, snap peas, mushroom, bamboo shoot, egg mixture",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -174,8 +174,7 @@ const Items = [
   {
     name: "Egg Flower Soup",
     price: 10.95,
-    description:
-      "Chicken, tofu, celery, mushroom and creamy egg mixture in an umami broth",
+    description: "chicken, tofu, celery, mushroom, creamy egg mixture",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -188,7 +187,7 @@ const Items = [
   {
     name: "Corn Chicken Soup",
     price: 10.95,
-    description: "Chicken, corn, and creamy egg mixture in an umami broth",
+    description: "chicken, corn, creamy egg mixture",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -200,7 +199,7 @@ const Items = [
   {
     name: "Plain Wonton Soup (L)",
     price: 10.95,
-    description: "Large sized pork filled wontons in an umami broth",
+    description: "12 pork filled wontons",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -212,7 +211,7 @@ const Items = [
   {
     name: "Plain Wonton Soup (S)",
     price: 3.0,
-    description: "Small sized pork filled wontons in an umami broth",
+    description: "2 pork filled wontons",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -226,7 +225,7 @@ const Items = [
     name: "Shrimp Sizzling Rice Soup",
     price: 12.95,
     description:
-      "Crispy sizzling rice on top of shrimp, mushroom, bamboo shoot, water chestnut in an umami broth",
+      "crispy sizzling rice, shrimp, mushroom, bamboo shoot, water chestnut, snap peas",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -240,7 +239,7 @@ const Items = [
     name: "Pork Wonton and/or Noodle Soup",
     price: 12.95,
     description:
-      "Pork filled wontons with pork, bok choy, shitake mushrooms, bamboo shoot, water chestnut in an umami broth. Thick or thin egg noodles optional",
+      "pork filled wontons, pork, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -253,7 +252,7 @@ const Items = [
     name: "Chicken Wonton and/or Noodle Soup",
     price: 12.95,
     description:
-      "Pork filled wontons with chicken, bok choy, shitake mushrooms, bamboo shoot, water chestnut in an umami broth. Thick or thin egg noodles optional",
+      "pork filled wontons, chicken, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -267,7 +266,7 @@ const Items = [
     name: "Beef Wonton and/or Noodle Soup",
     price: 12.95,
     description:
-      "Pork filled wontons with beef, bok choy, shitake mushrooms, bamboo shoot, water chestnut in an umami broth. Thick or thin egg noodles optional",
+      "pork filled wontons, beef, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -281,7 +280,7 @@ const Items = [
     name: "Combo Sizzling Rice Soup",
     price: 13.95,
     description:
-      "Crispy sizzling rice on top of chicken, pork, shrimp, mushroom, bamboo shoot, water chestnut in an umami broth",
+      "crispy sizzling rice, chicken, pork, shrimp, mushroom, bamboo shoot, water chestnut",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -295,7 +294,7 @@ const Items = [
     name: "Wor Wonton and/or Noodle Soup",
     price: 13.95,
     description:
-      "Pork filled wontons with chicken, pork, shrimp, bok choy, shitake mushrooms, bamboo shoot, water chestnut in an umami broth. Thick or thin egg noodles optional",
+      "pork filled wontons, chicken, pork, shrimp, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -309,7 +308,7 @@ const Items = [
     name: "Shrimp Wonton and/or Noodle Soup",
     price: 13.95,
     description:
-      "Pork filled wontons with shrimp, bok choy, shitake mushrooms, bamboo shoot, water chestnut in an umami broth. Thick or thin egg noodles optional",
+      "pork filled wontons, shrimp, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -323,7 +322,7 @@ const Items = [
     name: "Seafood Sizzling Rice Soup",
     price: 14.95,
     description:
-      "Crispy sizzling rice on top of imitation crab meat, fish, shrimp, mushroom, bamboo shoot, water chestnut in an umami broth",
+      "crispy sizzling rice, imitation crab meat, fish, shrimp, mushroom, bamboo shoot, water chestnut",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -337,7 +336,7 @@ const Items = [
   {
     name: "Steamed Rice (S)",
     price: 2.0,
-    description: "Small steamed rice",
+    description: "small steamed rice",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -350,7 +349,7 @@ const Items = [
   {
     name: "Steamed Rice (L)",
     price: 3.0,
-    description: "Large steamed rice",
+    description: "large steamed rice",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -363,7 +362,7 @@ const Items = [
   {
     name: "Chicken Fried Rice",
     price: 9.5,
-    description: "Fried rice with egg, chicken, & green onion",
+    description: "fried rice, egg, chicken, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -376,7 +375,7 @@ const Items = [
   {
     name: "Pork Fried Rice",
     price: 9.5,
-    description: "Fried rice with egg, pork, peas & carrots",
+    description: "fried rice, egg, pork, peas, carrots",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -389,7 +388,7 @@ const Items = [
   {
     name: "Beef Fried Rice",
     price: 9.5,
-    description: "Fried rice with egg, beef, & green onion",
+    description: "fried rice, egg, beef, & green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -401,8 +400,7 @@ const Items = [
   {
     name: "Vegetable Fried Rice",
     price: 9.5,
-    description:
-      "Fried rice with egg, beansprouts, peas, carrots, & green onion",
+    description: "fried rice, egg, beansprouts, peas, carrots, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: true,
@@ -415,7 +413,7 @@ const Items = [
   {
     name: "Special Fried Rice",
     price: 10.5,
-    description: "Fried rice with egg, pork, chicken, shrimp, peas & carrots",
+    description: "fried rice, egg, pork, chicken, shrimp, peas, carrots",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -428,7 +426,7 @@ const Items = [
   {
     name: "Shrimp Fried Rice",
     price: 10.5,
-    description: "Fried rice with egg, shrimp, & green onion",
+    description: "fried rice, egg, shrimp, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -443,7 +441,7 @@ const Items = [
   {
     name: "Plain Chow Mein",
     price: 9.95,
-    description: "Stir fried noodles with beansprouts & cabbage",
+    description: "stir fried noodles, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -456,7 +454,7 @@ const Items = [
   {
     name: "Chicken Chow Mein",
     price: 10.95,
-    description: "Stir fried noodles with chicken, beansprouts, & cabbage",
+    description: "stir fried noodles, chicken, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -468,8 +466,7 @@ const Items = [
   {
     name: "Chicken Almond Chow Mein",
     price: 10.95,
-    description:
-      "Stir fried noodles with chicken, almonds, beansprouts, & cabbage",
+    description: "stir fried noodles,chicken, almonds, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -482,7 +479,7 @@ const Items = [
   {
     name: "Pork Chow Mein",
     price: 10.95,
-    description: "Stir fried noodles with pork, beansprouts, & cabbage",
+    description: "stir fried noodles with pork, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -495,7 +492,7 @@ const Items = [
     name: "Vegetable Chow Mein",
     price: 10.95,
     description:
-      "Stir fried noodles with broccoli, carrots, bokchoy, beansprouts, & cabbage",
+      "stir fried noodles, broccoli, carrots, bokchoy, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: true,
@@ -509,7 +506,7 @@ const Items = [
     name: "Special Chow Mein",
     price: 11.5,
     description:
-      "Stir fried noodles with pork, chicken, shrimp, beansprouts, cabbage & snow peas",
+      "stir fried noodles, pork, chicken, shrimp, beansprouts, cabbage, snow peas",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -522,7 +519,7 @@ const Items = [
   {
     name: "Shrimp Chow Mein",
     price: 11.5,
-    description: "Stir fried noodles with shrimp, beansprouts, & cabbage",
+    description: "stir fried noodles, shrimp, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -535,7 +532,7 @@ const Items = [
   {
     name: "Beef Chow Mein",
     price: 11.5,
-    description: "Stir fried noodles with beef, beansprouts, & cabbage",
+    description: "stir fried noodles, beef, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -549,7 +546,7 @@ const Items = [
     name: "Beef Tomato Chow Mein",
     price: 11.5,
     description:
-      "Stir fried noodles with beef, green bell pepper, onion, beansprouts, cabbage, & tomato sauce",
+      "stir fried noodles, beef, tomato, green bell pepper, onion, beansprouts, cabbage, tomato sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -561,8 +558,7 @@ const Items = [
   {
     name: "B.B.Q. Pork Chow Mein",
     price: 10.95,
-    description:
-      "Stir fried noodles with barbeque pork, beansprouts, & cabbage",
+    description: "stir fried noodles, barbeque pork, beansprouts, cabbage",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -574,8 +570,7 @@ const Items = [
   {
     name: "Pansit",
     price: 11.5,
-    description:
-      "Rice stick noodles stir fried with egg, beansprouts & your choice of protein",
+    description: "rice stick noodles, egg, beansprouts, choice of protein",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -588,8 +583,7 @@ const Items = [
   {
     name: "Beef Chow Fun",
     price: 12.95,
-    description:
-      "Rice stick noodle stir fried with beef, beansprouts, & green onion",
+    description: "thick rice stick noodle, beef, beansprouts, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -603,7 +597,7 @@ const Items = [
     name: "Seafood Chow Mein",
     price: 12.95,
     description:
-      "Stir fried noodles with squid, shrimp, beansprouts, cabbage, & snow peas",
+      "stir fried noodles, squid, shrimp, beansprouts, cabbage, snow peas",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -616,7 +610,7 @@ const Items = [
     name: "Shrimp Chow Fun",
     price: 13.95,
     description:
-      "Rice stick noodle stir fried with shrimp, beansprouts, & green onion",
+      "rice stick noodle stir fried with shrimp, beansprouts, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -629,7 +623,7 @@ const Items = [
     name: "Singapore Chow Mein",
     price: 13.95,
     description:
-      "Rice stick noodle stir fried with choice of protein, curry powder, & beansprouts",
+      "rice stick noodle stir fried with choice of protein, egg, beansprouts, curry sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -643,7 +637,7 @@ const Items = [
     name: "House Pan Fried Noodle Sizzling Plate",
     price: 16.5,
     description:
-      "Crispy pan fried noodles under assorted combination of meats & veggies",
+      "crispy pan fried noodles, special sauce, choice of protein, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -657,7 +651,7 @@ const Items = [
   {
     name: "Beef Broccoli",
     price: 13.95,
-    description: "Stir fried beef & broccoli in a rich sauce",
+    description: "stir fried beef, broccoli",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -670,7 +664,7 @@ const Items = [
   {
     name: "Ginger Beef",
     price: 14.95,
-    description: "Stir fried beef, ginger, & green onion in a rich sauce",
+    description: "stir fried beef, ginger, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -682,8 +676,7 @@ const Items = [
   {
     name: "Beef with Oyster Sauce",
     price: 14.95,
-    description:
-      " Stir fried beef with oyster sauce and a variety of vegetables",
+    description: " stir fried beef, oyster sauce, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -695,7 +688,7 @@ const Items = [
   {
     name: "Beef with Tomato",
     price: 14.95,
-    description: "Stir fried beef with tomatoes in a tomato sauce",
+    description: "stir fried beef, tomatoes, tomato sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -707,7 +700,7 @@ const Items = [
   {
     name: "Beef with Beansprouts",
     price: 14.95,
-    description: "Stir fried beef with beansprouts in a rich sauce",
+    description: "stir fried beef, beansprouts",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -716,22 +709,11 @@ const Items = [
     category_id: 5,
     imageUrl: "",
   },
-  {
-    name: "Beef with Beansprouts",
-    price: 14.95,
-    description: "Stir fried beef with beansprouts in a rich sauce",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 5,
-    imageUrl: "",
-  },
+
   {
     name: "Beef with Chinese Greens",
     price: 14.95,
-    description: "Stir fried beef with baby bok choy in a rich sauce",
+    description: "stir fried beef, baby bok choy",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -743,7 +725,7 @@ const Items = [
   {
     name: "Beef with Tofu",
     price: 14.95,
-    description: "Stir fried beef with tofu in a rich sauce",
+    description: "stir fried beef, tofu",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -755,7 +737,7 @@ const Items = [
   {
     name: "Beef with Cashew Nut",
     price: 14.95,
-    description: "Stir fried beef with cashews & vegetables in a rich sauce",
+    description: "stir fried beef, cashews, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -767,7 +749,7 @@ const Items = [
   {
     name: "Green Pepper Beef",
     price: 14.95,
-    description: "Stir fried beef with green bell peppers in a rich sauce",
+    description: "stir fried beef, green bell peppers",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -779,7 +761,7 @@ const Items = [
   {
     name: "Beef with Assorted Vegetables",
     price: 14.95,
-    description: "Stir fried beef with assorted vegetables in a rich sauce",
+    description: "stir fried beef, assorted vegetables",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -791,7 +773,7 @@ const Items = [
   {
     name: "Beef Bittermelon",
     price: 14.95,
-    description: "Stir fried beef with bittermelon in a rich sauce",
+    description: "stir fried beef, bittermelon",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -803,8 +785,7 @@ const Items = [
   {
     name: "Curry Beef",
     price: 14.95,
-    description:
-      "Stir fried beef with assortment of vegetables in a curry sauce",
+    description: "stir fried beef, veggies, curry sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -816,8 +797,7 @@ const Items = [
   {
     name: "Kung Pao Beef",
     price: 14.95,
-    description:
-      "Stir fried beef with hot chilis & assortment of vegetables in a spicy sauce",
+    description: "stir fried beef, hot chilis, veggies, peanuts",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -830,8 +810,7 @@ const Items = [
   {
     name: "Szechaun Beef",
     price: 14.95,
-    description:
-      "Stir fried beef with hot chilis, cabbage, & cloud ear mushrooms in a spicy sauce",
+    description: "stir fried beef, hot chilis, cabbage, wood ear mushroom",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -844,7 +823,7 @@ const Items = [
     name: "Mongolian Beef",
     price: 16.95,
     description:
-      "Stir fried beef with hot chilis, mushrooms, bamboo shoots & green onions",
+      "stir fried beef, hot chilis, mushrooms, bamboo shoots, green onions",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -857,7 +836,7 @@ const Items = [
   {
     name: "Beef Asparagus (Seasonal)",
     price: 16.95,
-    description: "Stir fried beef with asparagus",
+    description: "stir fried beef, asparagus",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -869,7 +848,7 @@ const Items = [
   {
     name: "Hunan Beef",
     price: 16.95,
-    description: "Fried beef with a spicy sauce and assorted vegetables",
+    description: "fried beef, hot chilis, bell peppers, onions, carrots",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -882,7 +861,7 @@ const Items = [
   {
     name: "Green Bean Beef",
     price: 16.95,
-    description: "Stir fried beef with green beans",
+    description: "stir fried beef, green beans",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -896,7 +875,7 @@ const Items = [
     name: "Garlic Chicken",
     price: 12.95,
     description:
-      "Stir fried chicken with hot chilis, zucchini strips, broccoli, & carrots in a garlic sauce",
+      "stir fried chicken, hot chilis, garlic, zucchini strips, broccoli, carrots",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -910,7 +889,7 @@ const Items = [
     name: "Kung Pao Chicken",
     price: 12.95,
     description:
-      "Stir fried chicken with hot chilis, celery, onion, green bell peppers, & carrots in a spicy sauce topped with peanuts",
+      "stir fried chicken, hot chilis, celery, onion, green bell peppers, carrots, peanuts",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -923,7 +902,7 @@ const Items = [
   {
     name: "Chicken with Broccoli",
     price: 12.95,
-    description: "Stir fried chicken with broccoli in a rich sauce",
+    description: "stir fried chicken, broccoli",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -935,7 +914,7 @@ const Items = [
   {
     name: "Sweet & Sour Chicken",
     price: 12.95,
-    description: "Crispy fried chicken in a sweet & sour sauce",
+    description: "crispy fried chicken, sweet & sour sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -947,8 +926,7 @@ const Items = [
   {
     name: "Cashew Chicken",
     price: 12.95,
-    description:
-      "Stir fried chicken with a medley of vegetables topped with cashew nuts",
+    description: "stir fried chicken, veggies, cashews",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -961,8 +939,7 @@ const Items = [
   {
     name: "Almond Chicken",
     price: 12.95,
-    description:
-      "Stir fried chicken with a medley of vegetables topped with almonds",
+    description: "stir fried chicken, veggies, almonds",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -974,7 +951,7 @@ const Items = [
   {
     name: "Chicken with Assorted Vegetables",
     price: 12.95,
-    description: "Stir fried chicken with an assortment of vegetables",
+    description: "stir fried chicken, assorted vegetables",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -986,7 +963,7 @@ const Items = [
   {
     name: "Chicken with Chinese Green",
     price: 12.95,
-    description: "Stir fried chicken with bok choy in a rich sauce",
+    description: "stir fried chicken, baby bok choy",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -998,20 +975,20 @@ const Items = [
   {
     name: "Curry Chicken",
     price: 12.95,
-    description:
-      "Stir fried chicken with a variety of vegetables in a curry sauce",
+    description: "stir fried chicken, veggies, curry sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990668/China%20Center/Food%20Items/Chicken/curry_chicken_nplkok.jpg",
   },
   {
     name: "Lemon Chicken",
     price: 12.95,
-    description: "Crispy fried chicken with our lemon sauce",
+    description: "crispy fried chicken, lemon orange sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1023,7 +1000,7 @@ const Items = [
   {
     name: "Orange Chicken",
     price: 12.95,
-    description: "Crispy fried chicken with our orange sauce",
+    description: "crispy fried chicken, orange sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1037,7 +1014,7 @@ const Items = [
     name: "Szechuan Chicken",
     price: 12.95,
     description:
-      "Stir fried chicken with hot chilis, cabbage, bamboo shoots, & cloud ear mushrooms in a chili sauce",
+      "stir fried chicken, hot chilis, cabbage, bamboo shoots, cloud ear mushrooms",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1049,19 +1026,20 @@ const Items = [
   {
     name: "Pineapple Chicken",
     price: 12.95,
-    description: "Crispy fried chicken with our pineapple sauce",
+    description: "crispy fried chicken, pineapple orange sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990702/China%20Center/Food%20Items/Chicken/pineapple_ch_de74wj.jpg",
   },
   {
     name: "General's Chicken",
     price: 14.95,
-    description: "Crispy fried chicken with broccoli our spicy general sauce",
+    description: "crispy fried chicken, hot chilis, broccoli, general sauce",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1074,7 +1052,7 @@ const Items = [
   {
     name: "Chicken with Bitter Melon",
     price: 14.95,
-    description: "Stir fried chicken with bitter melon in a rich sauce",
+    description: "stir fried chicken, bittermelon",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1086,7 +1064,7 @@ const Items = [
   {
     name: "Chicken with Fresh Mushroom",
     price: 14.95,
-    description: "Stir fried chicken with mushrooms in a rich sauce",
+    description: "stir fried chicken, mushroom",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1098,7 +1076,7 @@ const Items = [
   {
     name: "Green Bean Chicken",
     price: 14.95,
-    description: "Stir fried chicken with green beans in a rich sauce",
+    description: "stir fried chicken, green beans",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1110,8 +1088,7 @@ const Items = [
   {
     name: "Mandarin House Chicken",
     price: 16.95,
-    description:
-      "Crispy fried chicken wings covered in our mandarin house sauce",
+    description: "crispy fried bone-in chicken wings, mandarin house sauce",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1124,7 +1101,7 @@ const Items = [
   {
     name: "Black Mushroom Chicken",
     price: 16.95,
-    description: "Stir fried chicken with shitake mushrooms in a rich sauce",
+    description: "stir fried chicken, shitake mushrooms",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1137,7 +1114,7 @@ const Items = [
   {
     name: "Chicken with Snow Peas",
     price: 16.95,
-    description: "Stir fried chicken with chinese snow peas in a rich sauce",
+    description: "stir fried chicken, snow peas",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1150,8 +1127,7 @@ const Items = [
   {
     name: "Kung Pao Tofu",
     price: 12.95,
-    description:
-      "Choice of soft or deep fried tofu mixed with a medley of vegetables in a rich spicy sauce topped with peanuts",
+    description: "tofu - choice of soft or fried, veggies, peanuts",
     isSpicy: true,
     isVegan: true,
     isVegetarian: true,
@@ -1163,7 +1139,7 @@ const Items = [
   {
     name: "Mixed Vegetables",
     price: 12.95,
-    description: "Stir fried vegetables in a rich clear sauce",
+    description: "stir fried vegetables",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -1175,7 +1151,7 @@ const Items = [
   {
     name: "Steamed Broccoli",
     price: 12.95,
-    description: "Broccoli in a rich sauce",
+    description: "broccoli",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -1187,7 +1163,7 @@ const Items = [
   {
     name: "Fried Tofu",
     price: 12.95,
-    description: "Fried tofu in a rich sauce",
+    description: "fried tofu",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -1199,7 +1175,7 @@ const Items = [
   {
     name: "Garlic Eggplant with Tofu",
     price: 12.95,
-    description: "Fried eggplant with friend tofu in a rich garlic sauce",
+    description: "fried eggplant, fried tofu",
     isSpicy: false,
     isVegan: true,
     isVegetarian: true,
@@ -1209,129 +1185,27 @@ const Items = [
     imageUrl: "",
   },
   // Chop Suey & Egg Foo Yung
+
   {
-    name: "Chicken Chop Suey",
+    name: "Egg Foo Yung",
     price: 12.95,
     description:
-      "Stir fried chicken with beansprouts and other vegetables in a rich clear sauce",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Beef Chop Suey",
-    price: 12.95,
-    description:
-      "Stir fried beef with beansprouts and other vegetables in a rich clear sauce",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Pork Chop Suey",
-    price: 12.95,
-    description:
-      "Stir fried pork with beansprouts and other vegetables in a rich clear sauce",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Chicken Egg Foo Yung",
-    price: 12.95,
-    description:
-      "Egg patties filled with chicken, cabbage, & beansprouts in an asian style gravy",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459915/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/egg_foo_yung_jpfriv.jpg",
-  },
-  {
-    name: "Beef Egg Foo Yung",
-    price: 12.95,
-    description:
-      "Egg patties filled with beef, cabbage, & beansprouts in an asian style gravy",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Pork Egg Foo Yung",
-    price: 12.95,
-    description:
-      "Egg patties filled with barbecue pork, cabbage, & beansprouts in an asian style gravy",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Vegetable Egg Foo Yung",
-    price: 12.95,
-    description:
-      "Egg patties filled with peas, carrots, cabbage, & beansprouts in an asian style gravy",
+      "egg patties, cabbage, beansprouts, choice of protein, asian gravy",
     isSpicy: false,
     isVegan: false,
     isVegetarian: true,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 8,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990688/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/plain_egg_fu_young_mcoeni.jpg",
   },
-  {
-    name: "Special Egg Foo Yung",
-    price: 13.95,
-    description:
-      "Egg patties filled with chicken, shrimp, barbecue pork, cabbage, & beansprouts in an asian style gravy",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
-  {
-    name: "Shrimp Egg Foo Yung",
-    price: 13.95,
-    description:
-      "Egg patties filled with shrimp, cabbage, & beansprouts in an asian style gravy",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
+
   {
     name: "Ho Su Tofu",
     price: 15.95,
     description:
-      "Soft or friend tofu mixed with shitake mushrooms, barbecue pork, shrimp, bok choy, & beansprouts in a rich sauce",
+      "tofu - choice of soft or fried, shitake mushrooms, barbecue pork, shrimp, bok choy, beansprouts",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1342,10 +1216,10 @@ const Items = [
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677787242/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/ho_su_tofu_bdpyel.jpg",
   },
   {
-    name: "Special Chop Suey",
+    name: "Chop Suey",
     price: 15.95,
     description:
-      "Stir fried chicken, shrimp, and pork with beansprouts and other vegetables in a rich clear sauce",
+      "stir fried beansprouts, assorted vegetables, choice of protein",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1355,24 +1229,12 @@ const Items = [
     imageUrl:
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677787156/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/special_cs_saibrj.jpg",
   },
-  {
-    name: "Shrimp Chop Suey",
-    price: 15.95,
-    description:
-      "Stir fried shrimp with beansprouts and other vegetables in a rich clear sauce",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    category_id: 8,
-    imageUrl: "",
-  },
+
   // Pork
   {
     name: "Sweet & Sour Pork",
     price: 12.95,
-    description: "Crispy fried pork in a sweet & sour sauce",
+    description: "crispy fried pork, sweet & sour sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1385,7 +1247,7 @@ const Items = [
   {
     name: "Pork with Beansprouts",
     price: 12.95,
-    description: "Stir fried pork with beansprouts in a rich clear sauce",
+    description: "stir fried pork, beansprouts",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1397,7 +1259,7 @@ const Items = [
   {
     name: "Pork with Tofu",
     price: 12.95,
-    description: "Stir fried pork with soft or fried tofu in a rich sauce.",
+    description: "stir fried pork, tofu - choice of soft or fried",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1411,7 +1273,7 @@ const Items = [
     name: "Spareribs with Black Bean Sauce",
     price: 14.95,
     description:
-      "Stir fried spareribs with onions and green bell peppers in a black bean sauce",
+      "stir fried spareribs, onions, green bell peppers, black bean sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1424,7 +1286,7 @@ const Items = [
   {
     name: "Pork with Chinese Green",
     price: 12.95,
-    description: "Stir fried pork with bok choy in a rich clear sauce",
+    description: "stir fried pork, baby bok choy",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1436,8 +1298,7 @@ const Items = [
   {
     name: "Ma Pao Tofu",
     price: 12.95,
-    description:
-      "Steamed tofu with pork and green onions in a rich spicy sauce",
+    description: "steamed tofu, pork, green onions",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1449,7 +1310,7 @@ const Items = [
   {
     name: "Garlic Eggplant with Pork",
     price: 12.95,
-    description: "Fried eggplant with pork in a rich spicy garlic sauce",
+    description: "fried eggplant, pork, garlic",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1461,7 +1322,7 @@ const Items = [
   {
     name: "Pork Bittermelon",
     price: 14.95,
-    description: "Stir fried pork with bitter melon in a rich sauce",
+    description: "stir fried pork, bittermelon",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1473,7 +1334,7 @@ const Items = [
   {
     name: "Garlic Pork",
     price: 12.95,
-    description: "Stir fried pork with vegetables in a rich spicy garlic sauce",
+    description: "stir fried pork, hot chilis, veggies, garlic",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1485,8 +1346,7 @@ const Items = [
   {
     name: "Chun King Pork",
     price: 12.95,
-    description:
-      "Stir fried pork with cabbage & bamboo shoots in a rich spicy sauce",
+    description: "stir fried pork, hot chilis, cabbage, bamboo shoots",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1498,8 +1358,7 @@ const Items = [
   {
     name: "Szechaun Pork",
     price: 12.95,
-    description:
-      "Stir fried pork with cabbage, bamboo shoots, & cloud ear mushrooms in a rich spicy sauce",
+    description: "stir fried pork, cabbage, bamboo shoots, wood ear mushrooms",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1511,7 +1370,7 @@ const Items = [
   {
     name: "Barbeque Pork with Broccoli",
     price: 12.95,
-    description: "Stir fried barbeque pork with broccoli in a rich sauce",
+    description: "stir fried barbeque pork, broccoli",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1524,7 +1383,7 @@ const Items = [
   {
     name: "Shrimp Vegetable",
     price: 15.95,
-    description: "Stir fried shrimp with vegetables in a rich clear sauce",
+    description: "stir fried shrimp, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1537,7 +1396,7 @@ const Items = [
   {
     name: "Shrimp with Chinese Green",
     price: 15.95,
-    description: "Stir fried shrimp with bok choy in a rich clear sauce",
+    description: "stir fried shrimp, baby bok choy",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1549,7 +1408,7 @@ const Items = [
   {
     name: "Garlic Shrimp",
     price: 15.95,
-    description: "Stir fried shrimp with vegetables in a spicy garlic sauce",
+    description: "stir fried shrimp, hot chilis, veggies, garlic",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1562,7 +1421,7 @@ const Items = [
   {
     name: "Shrimp with Lobster Sauce",
     price: 15.95,
-    description: "Stir fried shrimp with vegetables in a special lobster sauce",
+    description: "stir fried shrimp, veggies, lobster sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1574,7 +1433,7 @@ const Items = [
   {
     name: "Sweet & Sour Shrimp",
     price: 15.95,
-    description: "Crispy fried shrimp in sweet & sour sauce",
+    description: "crispy fried shrimp, sweet & sour sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1586,7 +1445,7 @@ const Items = [
   {
     name: "Curry Shrimp",
     price: 15.95,
-    description: "Stir fried shrimp with vegetables in a curry sauce",
+    description: "stir fried shrimp, vegetables, curry sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1598,7 +1457,7 @@ const Items = [
   {
     name: "Shrimp with Black Bean Sauce",
     price: 15.95,
-    description: "Stir fried shrimp with vegetables in a black bean sauce",
+    description: "stir fried shrimp, veggies, black bean sauce",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1611,8 +1470,7 @@ const Items = [
   {
     name: "Kung Pao Fish Fillet",
     price: 15.95,
-    description:
-      "Stir fried fish fillet with vegetables in a spicy rich sauce with peanuts on top",
+    description: "stir fried fish fillet, hot chilis, veggies, peanuts",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1624,7 +1482,7 @@ const Items = [
   {
     name: "Fish Fillet with Vegetables",
     price: 15.95,
-    description: "Stir fried fish fillet with vegetables in a rich clear sauce",
+    description: "stir fried fish fillet, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1636,8 +1494,7 @@ const Items = [
   {
     name: "Cashew Shrimp",
     price: 15.95,
-    description:
-      "Stir fried shrimp with vegetables in a rich sauce with cashews on top",
+    description: "stir fried shrimp, veggies, cashews",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1650,7 +1507,7 @@ const Items = [
     name: "Pan Fried Shrimp",
     price: 17.95,
     description:
-      "Crispy fried whole shelled shrimp tossed with hot chilis, serrano peppers, ginger, green onions & garlic",
+      "crispy fried whole shelled shrimp, hot chilis, serrano peppers, ginger, green onions, garlic",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1663,7 +1520,7 @@ const Items = [
   {
     name: "Shrimp with Green Bean",
     price: 17.95,
-    description: "Stir fried shrimp with green beans in a rich sauce",
+    description: "stir fried shrimp, green beans",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1675,7 +1532,7 @@ const Items = [
   {
     name: "Shrimp with Snow Peas",
     price: 17.95,
-    description: "Stir fried shrimp with snow peas in a rich sauce",
+    description: "stir fried shrimp, snow peas",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1687,7 +1544,7 @@ const Items = [
   {
     name: "Shrimp Asparagus",
     price: 17.95,
-    description: "Stir fried shrimp with asparagus in a rich sauce",
+    description: "stir fried shrimp, asparagus",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1700,7 +1557,7 @@ const Items = [
   {
     name: "Seafood Vegetable",
     price: 17.95,
-    description: "Stir fried shrimp & squid with vegetables in a rich sauce",
+    description: "stir fried shrimp, squid, veggies",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1712,8 +1569,7 @@ const Items = [
   {
     name: "Walnut Shrimp",
     price: 17.95,
-    description:
-      "Crispy fried shrimp with broccoli covered in a honey walnut sauce",
+    description: "crispy fried shrimp, broccoli, honey, walnuts",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1728,99 +1584,102 @@ const Items = [
     name: "Combo Plate A",
     price: 13.95,
     description:
-      "Contains chicken chow mein, pork fried rice, two fried prawns and a saucer of sweet & sour pork",
+      "chicken chow mein, pork fried rice, sweet & sour pork, fried prawns",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 11,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990415/China%20Center/Food%20Items/Combo%20Plates/A_Edited_md7or1.png",
   },
   {
     name: "Combo Plate B",
     price: 14.95,
-    description:
-      "Contains vegetable beef, pork fried rice, two fried prawns and an egg roll",
+    description: "vegetable beef, pork fried rice, egg roll, fried prawns",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 11,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990784/China%20Center/Food%20Items/Combo%20Plates/b_edited_ja5mzg.png",
   },
   {
     name: "Combo Plate C",
     price: 14.95,
     description:
-      "Contains beef broccoli, pork fried rice, two fried prawns and a saucer of sweet & sour pork",
+      "beef broccoli, pork fried rice, sweet & sour pork, fried prawns",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 11,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990429/China%20Center/Food%20Items/Combo%20Plates/C_Edited_cmlmbo.jpg",
   },
   {
     name: "Combo Plate D",
     price: 14.95,
     description:
-      "Contains almond chicken, pork fried rice, two fried prawns and a saucer of sweet & sour pork",
+      "almond chicken, pork fried rice, sweet & sour pork, fried prawns",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 11,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990434/China%20Center/Food%20Items/Combo%20Plates/D_Edited_mfjkbd.jpg",
   },
   // Chinese Family Dinner for 2 or more
   {
     name: "No.1 Family Dinner",
     price: 15.95,
-    description:
-      "$15.95 per person. No.1 comes with wonton soup, egg rolls, sweet & sour pork, fried wonton, pork fried rice, pork chow mein. For 3 add beef broccoli. For 4 add kung pao chicken.",
+    description: "portion size increases with each additional persons",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 12,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/Family_Dinner_1_rczihz.png",
   },
   {
     name: "No.2 Family Dinner",
     price: 15.95,
-    description:
-      "$15.95 per person. No.2 comes with wonton soup, egg rolls, fried prawns, sweet & sour pork, pork fried rice, special chow mein. For 3 add almond chicken. For 4 add beef broccoli. ",
+    description: "portion size increases with each additional persons",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 12,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/family_dinner_2_s5cm7w.png",
   },
   {
     name: "No.3 Family Dinner",
     price: 16.95,
-    description:
-      "$16.95 per person. No.3 comes with wonton soup, fried prawns, fried chicken wings, pork fried rice. Each person may also add an entree of their choice. 1. Chicken Almond Chow Mein. 2. Shrimp Chow Mein. 3. Garlic Chicken. 4. Kung Pao Beef. 5. Broccoli Beef. 6. Orange Chicken.",
+    description: "portion size increases with each additional persons",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 12,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/family_dinner_3_xstvat.png",
   },
   // Lunch Special
   {
     name: "Beef Oyster Sauce (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1832,7 +1691,7 @@ const Items = [
   {
     name: "Sweet & Sour Pork (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1844,7 +1703,7 @@ const Items = [
   {
     name: "Almond Chicken (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1856,7 +1715,7 @@ const Items = [
   {
     name: "Beef Broccoli (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1868,7 +1727,7 @@ const Items = [
   {
     name: "Beef Green Pepper (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1880,7 +1739,7 @@ const Items = [
   {
     name: "Curry Chicken (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1892,7 +1751,7 @@ const Items = [
   {
     name: "Chicken or Pork Chow Mein (Lunch)",
     price: 11.95,
-    description: "Comes of fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1904,7 +1763,7 @@ const Items = [
   {
     name: "Chicken Broccoli (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1916,7 +1775,7 @@ const Items = [
   {
     name: "Kung Pao Chicken or Beef (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1928,7 +1787,7 @@ const Items = [
   {
     name: "Garlic Chicken (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1940,7 +1799,7 @@ const Items = [
   {
     name: "Sweet & Sour Chicken (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1952,7 +1811,7 @@ const Items = [
   {
     name: "Beef or Chicken Chop Suey (Lunch)",
     price: 11.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1964,7 +1823,7 @@ const Items = [
   {
     name: "Shrimp Vegetable (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -1976,7 +1835,7 @@ const Items = [
   {
     name: "Garlic Shrimp (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -1988,7 +1847,7 @@ const Items = [
   {
     name: "Mongolian Beef (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -2000,7 +1859,7 @@ const Items = [
   {
     name: "Seafood Vegetable (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2012,7 +1871,7 @@ const Items = [
   {
     name: "Fish Fillet Vegetable (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2024,7 +1883,7 @@ const Items = [
   {
     name: "General Chicken (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -2036,7 +1895,7 @@ const Items = [
   {
     name: "Kung Pao Fish Fillet (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: true,
     isVegan: false,
     isVegetarian: false,
@@ -2048,7 +1907,7 @@ const Items = [
   {
     name: "Orange Chicken (Lunch)",
     price: 12.95,
-    description: "Choice of white rice or fried rice & an egg roll",
+    description: "choice of white rice or fried rice, egg roll",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2060,7 +1919,7 @@ const Items = [
   {
     name: "Glass Wine",
     price: 8,
-    description: "glass of chardonnay",
+    description: "chardonnay",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2096,7 +1955,7 @@ const Items = [
   {
     name: "Hot Tea",
     price: 2.5,
-    description: "Pot of hot oolong tea",
+    description: "oolong",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2108,7 +1967,7 @@ const Items = [
   {
     name: "Ice Tea",
     price: 2.5,
-    description: "Cold oolong tea",
+    description: "cold oolong tea",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -2133,7 +1992,7 @@ const Items = [
   {
     name: "Orange or Apple Juice",
     price: 3.95,
-    description: "Individually bottled juices",
+    description: "individually bottled",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,

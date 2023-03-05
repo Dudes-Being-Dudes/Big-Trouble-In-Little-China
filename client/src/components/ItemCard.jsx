@@ -5,13 +5,14 @@ const ItemCard = ({ item }) => {
   return (
     <div
       key={item}
-      className=" flex flex-col border h-auto w-auto gap-y-6 ml-2 items-center"
+      className=" flex flex-col shadow-md h-auto w-auto gap-y-6 ml-2 my-2 items-center"
     >
-      <h3>{item.name}</h3>
+      <img src={item.imageUrl} alt="No Picture Available" />
+      <h3 className="text-phoRed">{item.name}</h3>
+      <p className="mx-4">{item.description}</p>
       <p>${item.price}</p>
     </div>
   );
-  console.log("Item name test:", item);
 };
 
 export default ItemCard;

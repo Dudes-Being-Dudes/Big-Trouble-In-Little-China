@@ -5,7 +5,6 @@
 // import { useState } from "react";
 // import useItems from "../hooks/useItems";
 // import { useNavigate } from "react-router-dom";
-// import MenuDropdown from "./MenuDropdown";
 
 // export default function Categories() {
 //   const catIds = useParams();
@@ -96,15 +95,12 @@ export default function Categories() {
   return (
     <>
       {" "}
-      <div className="flex-col">
-        <h1 className="text-3xl my-6 flex justify-center items-center">
-          The Menu
-        </h1>
-        <div className="flex flex-wrap">
+      <div className="flex-col flex">
+        <div className="flex flex-wrap p-2 items-center justify-center">
           {" "}
           {categories.map((category) => {
             return (
-              <div className="flex justify-center flex-col mb-6">
+              <div className="flex justify-center flex-col mb-2 w-100">
                 <button
                   href="#_"
                   class="relative px-6 overflow-hidden font-medium text-black-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"

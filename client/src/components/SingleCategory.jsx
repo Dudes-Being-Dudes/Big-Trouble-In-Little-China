@@ -5,6 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import ItemCard from "./ItemCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import Categories from "./Categories";
 export default function SingleCategory() {
   const [prodId, setProdId] = useState("");
   const prodIds = useParams();
@@ -30,7 +31,8 @@ export default function SingleCategory() {
   console.log("These are the prodIds", prodIds);
   return (
     <>
-      <div>
+      <div className="md:mx-32 sm:mx-8">
+        {" "}
         <FontAwesomeIcon
           onClick={async (e) => {
             navigate("/menu");
@@ -41,24 +43,30 @@ export default function SingleCategory() {
         {categories.map((category) => {
           if (category.id === prodId) {
             return (
-              <div className="flex justify-center items-center flex-col bg-phoRed text-white text-2xl my-12 p-4">
+              <div className="flex justify-center items-center flex-col bg-phoRed text-white text-2xl my-12 p-4 rounded-full">
                 {category.name}
               </div>
             );
           }
         })}
+      </div>{" "}
+      <div className="flex">
+        <section className="border ml-1 h-50 flex flex-col justify-center items-center">
+          <h2 className="text-phoRed">Categories</h2>
+          <Categories />
+        </section>
+        <section>
+          <div className="grid grid-cols-1 border-y-2 md:grid-cols-2  sm:mx-2">
+            {CategoryItems.map((item) => {
+              return (
+                <div>
+                  <ItemCard item={item} />
+                </div>
+              );
+            })}
+          </div>
+        </section>
       </div>
-      <section>
-        <div>
-          {CategoryItems.map((item) => {
-            return (
-              <div>
-                <ItemCard item={item} />
-              </div>
-            );
-          })}
-        </div>
-      </section>
     </>
   );
 }
