@@ -56,7 +56,7 @@ export default function SingleCategory() {
           <Categories />
         </section>
         <section>
-          <div className="grid grid-cols-1 border-y-2 md:grid-cols-2  sm:mx-2">
+          <div className="grid grid-cols-1 border-y-2 md:grid-cols-3 lg:grid-cols-4  sm:mx-2">
             {CategoryItems.map((item) => {
               return (
                 <div>
