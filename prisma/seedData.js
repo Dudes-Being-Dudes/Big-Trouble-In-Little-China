@@ -88,7 +88,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137749/China%20Center/Food%20Items/Apps/fried_squidies_cm3bcp.jpg",
   },
   {
     name: "Cream Cheese Crab Puff",
@@ -319,6 +320,20 @@ const Items = [
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677366020/China%20Center/Food%20Items/Soup/Shr_Wtn_jq83ub.jpg",
   },
   {
+    name: "Seafood Wonton and/or Noodle Soup",
+    price: 14.95,
+    description:
+      "pork filled wontons, shrimp, fish fillet, squid, bok choy, shitake mushrooms, bamboo shoot, water chestnut. Thick or thin egg noodles optional",
+    isSpicy: false,
+    isVegan: false,
+    isVegetarian: false,
+    isDairyFree: true,
+    isGlutenFree: false,
+    category_id: 2,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137780/China%20Center/Food%20Items/Soup/seafood_wtn_u59xbb.jpg",
+  },
+  {
     name: "Seafood Sizzling Rice Soup",
     price: 14.95,
     description:
@@ -330,7 +345,7 @@ const Items = [
     isGlutenFree: true,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137773/China%20Center/Food%20Items/Soup/siz_sf_sp_yxicn8.jpg",
   },
   // Fried Rice
   {
@@ -720,7 +735,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137792/China%20Center/Food%20Items/Beef/bf_bok_choy_dekwxp.jpg",
   },
   {
     name: "Beef with Tofu",
@@ -1198,7 +1214,7 @@ const Items = [
     isGlutenFree: false,
     category_id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990688/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/plain_egg_fu_young_mcoeni.jpg",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137805/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/egg_foo_yung_pan_ufz6ls.jpg",
   },
 
   {
@@ -1305,7 +1321,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137735/China%20Center/Food%20Items/Pork/mapo_tofu_m7zabm.jpg",
   },
   {
     name: "Garlic Eggplant with Pork",
@@ -1380,6 +1397,7 @@ const Items = [
     imageUrl: "",
   },
   // From The Sea
+
   {
     name: "Shrimp Vegetable",
     price: 15.95,
@@ -1392,6 +1410,20 @@ const Items = [
     category_id: 10,
     imageUrl:
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677366971/China%20Center/Food%20Items/From%20The%20Sea/Shr_Veg_c9dhvy.jpg",
+  },
+  {
+    name: "Kung Pao Seafood",
+    price: 16.95,
+    description:
+      "stir fried squid, shrimp, fish fillet, hot chilis, veggies, peanuts",
+    isSpicy: true,
+    isVegan: false,
+    isVegetarian: false,
+    isDairyFree: true,
+    isGlutenFree: false,
+    category_id: 10,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137818/China%20Center/Food%20Items/From%20The%20Sea/kp_seafood_cowy7d.jpg",
   },
   {
     name: "Shrimp with Chinese Green",
