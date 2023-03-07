@@ -127,7 +127,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678221243/China%20Center/Food%20Items/Apps/crinkle_cut_fuapzz.jpg",
   },
   {
     name: "Shrimp Chips",
@@ -748,7 +749,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220759/China%20Center/Food%20Items/Beef/bf_tofu_xhuv67.jpg",
   },
   {
     name: "Beef with Cashew Nut",
@@ -937,7 +939,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220877/China%20Center/Food%20Items/Chicken/ss_chicken_s5g9kt.jpg",
   },
   {
     name: "Cashew Chicken",
@@ -1370,7 +1373,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220841/China%20Center/Food%20Items/Pork/chun_king_pork_zmkczv.jpg",
   },
   {
     name: "Szechaun Pork",
@@ -1802,7 +1806,8 @@ const Items = [
     isDairyFree: true,
     isGlutenFree: false,
     category_id: 13,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220806/China%20Center/Food%20Items/Chicken/ch_broccoli_ri3kwa.jpg",
   },
   {
     name: "Kung Pao Chicken or Beef (Lunch)",

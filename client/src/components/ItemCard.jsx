@@ -13,7 +13,7 @@ const ItemCard = ({ item }) => {
       key={item}
       className=" flex flex-col shadow-md h-auto w-auto gap-y-6 ml-2 my-2 items-center"
     >
-      <img src={item.imageUrl} alt="No Picture Available" />
+      <img src={item.imageUrl} alt="" />
       <div className="flex items-center gap-2">
         {item.isSpicy === true ? (
           <FontAwesomeIcon
