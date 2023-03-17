@@ -18,10 +18,24 @@
   .footer {
     bottom: 0;
   }
+  .footer1 {
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .footer {
     bottom: 0;
+  }
+  .footer1 {
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }

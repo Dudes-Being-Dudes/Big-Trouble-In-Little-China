@@ -2,16 +2,18 @@ import React from "react";
 import shef from "../assets/randomchinesechef1.jpg";
 import truck from "../assets/drawnFoodTruck.jpg";
 import styles from "../styles/Home.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <>
-      <div className="h-screen bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] h-full mt-2">
+      <div className="h-screen bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] h-full">
         <div className="h-full mx-12 sm:mx-0">
           <div className="flex justify-center">
             {" "}
             <div id="banner" className={styles.banner}>
-              <h1 className="text-6xl px-2">Family Operated Business</h1>
+              <h1 className="text-6xl px-2 mt-10">Family Operated Business</h1>
             </div>
           </div>
 
@@ -50,20 +52,18 @@ export default function Home() {
                           className="w-full lg:w-3/5 lg:px-3"
                         >
                           <p className="text-md mt-4 lg:mt-0 text-justify md:text-left text-sm">
-                            We pride ourselves on not being a corporate chain.
-                            We're a family-run business, and we want this to
-                            shine through in everything we do - from the food we
-                            cook fresh daily to the team we employ and train, to
-                            the way we greet and engage with our customers. We
-                            encourage our staff to be themselves at work so they
-                            can feel happy, relaxed, and give our customers the
-                            best possible experience when they dine with us. If
-                            you think you would be a good fit here, you can read
-                            more with the link provided.
+                            China Center Restaurant fosters a genuine family
+                            environment. No experience needed, we'd love to hear
+                            from you!
                           </p>
                         </div>
                         <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
-                          <button class="hover:bg-red-700 hover:text-white text-white bg-phoRed border border-solid border-grey w-2/3 lg:w-full py-2">
+                          <button
+                            onClick={async (e) => {
+                              navigate("/careers");
+                            }}
+                            class="hover:bg-red-700 hover:text-white text-white bg-phoRed border border-solid border-grey w-2/3 lg:w-full py-2"
+                          >
                             Learn More
                           </button>
                         </div>
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mb-2 h-screen bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] h-full"></div>
+      <div className=" h-screen bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] h-full"></div>
     </>
   );
 }

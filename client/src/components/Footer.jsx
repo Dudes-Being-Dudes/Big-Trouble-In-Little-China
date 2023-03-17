@@ -15,10 +15,10 @@ export default function Footer() {
     <div className={styles.footer}>
       <div
         id="container"
-        className=" bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')]"
+        className=" bg-fixed bg-cover bg-[url('../src/assets/greatwall.PNG')] pt-2"
       >
-        <div id="footer1">
-          <div className="flex md:flex-row border-2 border-red-400 bg-teal-100 sm:flex-col items-center my-12">
+        <div className={styles.footer1} id="footer1">
+          <div className="flex md:flex-row border-2 border-red-400 bg-teal-200 sm:flex-col items-center my-12">
             <img className="sm:hidden md:block" src={takeout} />
             <div className="flex flex-col items-center md:border-r-2">
               <h3 className="my-6 text-2xl font-bold">NEWS AND OFFERS</h3>
@@ -101,9 +101,15 @@ export default function Footer() {
         </div>
         <div id="footer2" className="bg-black text-white flex py-12">
           <div className="flex gap-x-8 ml-4">
-            <a className={styles.link}>Careers</a>
-            <a className={styles.link}>Frequently Asked Questions</a>
-            <a className={styles.link}>Covid-19 Policy</a>
+            <a className={styles.link} href="/careers">
+              Careers
+            </a>
+            <a className={styles.link} href="/faqs">
+              Frequently Asked Questions
+            </a>
+            <a className={styles.link} href="/covid19">
+              Covid-19 Policy
+            </a>
             <a>@Copyright China Center</a>
           </div>
         </div>

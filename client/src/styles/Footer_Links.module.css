@@ -1,0 +1,16 @@
+.heading {
+  filter: drop-shadow(8px 4px 4px black);
+  color: white;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #e21837;
+}
+
+.body {
+  filter: drop-shadow(8px 4px 4px black);
+}
+
+p {
+  font-size: larger;
+}
