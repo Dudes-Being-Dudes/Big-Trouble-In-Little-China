@@ -4,6 +4,7 @@ import {
   faLeaf,
   faPepperHot,
   faSeedling,
+  faBrain,
 } from "@fortawesome/free-solid-svg-icons";
 
 const ItemCard = ({ item }) => {
@@ -39,6 +40,13 @@ const ItemCard = ({ item }) => {
             icon={faLeaf}
             className="px-2 py-2 rounded-full  text-green-400"
             title="vegetarian"
+          />
+        ) : null}
+        {item.isNut === true ? (
+          <FontAwesomeIcon
+            icon={faBrain}
+            className="px-2 py-2 rounded-full text-[#c6952b]"
+            title="contains nut"
           />
         ) : null}
       </div>

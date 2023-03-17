@@ -21,6 +21,7 @@ model Items {
   isVegetarian Boolean? @default(false)
   isDairyFree Boolean? @default(false)
   isGlutenFree Boolean? @default(false)
+  isNut Boolean? @default(false)
   category_id Int?
   categories Categories? @relation(fields: [category_id], references: [id])
 }
