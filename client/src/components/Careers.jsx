@@ -9,7 +9,7 @@ const Careers = () => {
         <h1 className={styles.heading}>Careers</h1>
       </div>
       <div className={styles.body}>
-        <div className="p-4 bg-black m-10 rounded text-white">
+        <div className="p-4 bg-snow m-10 rounded text-black text-xl">
           <p>
             We pride ourselves on not being a corporate chain. We're a
             family-run business and we want this to shine through in everything
@@ -32,7 +32,7 @@ const Careers = () => {
             }}
             className="bg-phoRed p-2 rounded hover:bg-red-700"
           >
-            Visit Location
+            More Details
           </button>
         </div>
       </div>
