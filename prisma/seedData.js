@@ -643,9 +643,10 @@ const Items = [
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677367032/China%20Center/Food%20Items/Noods/CH_Pansit_yohwdi.jpg",
   },
   {
-    name: "Beef Chow Fun",
+    name: "Chow Fun",
     price: 12.95,
-    description: "thick rice stick noodle, beef, beansprouts, green onion",
+    description:
+      "thick rice stick noodle, choice of protein, beansprouts, green onion",
     isSpicy: false,
     isVegan: false,
     isVegetarian: false,
@@ -670,20 +671,7 @@ const Items = [
     category_id: 4,
     imageUrl: "",
   },
-  {
-    name: "Shrimp Chow Fun",
-    price: 13.95,
-    description:
-      "rice stick noodle stir fried with shrimp, beansprouts, green onion",
-    isSpicy: false,
-    isVegan: false,
-    isVegetarian: false,
-    isDairyFree: true,
-    isGlutenFree: false,
-    isNut: false,
-    category_id: 4,
-    imageUrl: "",
-  },
+
   {
     name: "Singapore Chow Mein",
     price: 13.95,
