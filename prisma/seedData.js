@@ -2125,7 +2125,7 @@ const Items = [
     isVegetarian: false,
     isDairyFree: true,
     isGlutenFree: false,
-    isNut: false,
+    isNut: true,
     category_id: 13,
     imageUrl: "",
   },
