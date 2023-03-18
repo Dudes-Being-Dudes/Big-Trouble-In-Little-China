@@ -1311,7 +1311,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 7,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016251/China%20Center/Food%20Items/Pork/pork_eggplant_xmoa20.jpg",
   },
   // Chop Suey & Egg Foo Yung
 
@@ -1457,7 +1458,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016251/China%20Center/Food%20Items/Pork/pork_eggplant_xmoa20.jpg",
   },
   {
     name: "Pork Bittermelon",
@@ -1844,7 +1846,7 @@ const Items = [
     isNut: false,
     category_id: 12,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/Family_Dinner_1_rczihz.png",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679108559/China%20Center/Food%20Items/Family%20Dinner/family_dinner_1_eyvaqv.png",
   },
   {
     name: "No.2 Family Dinner",
@@ -1858,7 +1860,7 @@ const Items = [
     isNut: false,
     category_id: 12,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/family_dinner_2_s5cm7w.png",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679108559/China%20Center/Food%20Items/Family%20Dinner/family_dinner_2_qjills.png",
   },
   {
     name: "No.3 Family Dinner",
@@ -1872,7 +1874,7 @@ const Items = [
     isNut: false,
     category_id: 12,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990944/China%20Center/Food%20Items/Family%20Dinner/family_dinner_3_xstvat.png",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679108559/China%20Center/Food%20Items/Family%20Dinner/family_dinner_3_rpfqzm.png",
   },
   // Lunch Special
   {
@@ -2166,7 +2168,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 14,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679108733/China%20Center/Food%20Items/Drinks/coors_and_budlight_dabtpb.jpg",
   },
   {
     name: "Imported Beer",
@@ -2179,7 +2182,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 14,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1679108848/China%20Center/Food%20Items/Drinks/imported_beer_hpadm1.png",
   },
   {
     name: "Hot Tea",

@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPepperHot, faShrimp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPepperHot,
+  faShrimp,
+  faBrain,
+} from "@fortawesome/free-solid-svg-icons";
 export default function Specials() {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -79,7 +83,15 @@ export default function Specials() {
               <p>$14.95</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <xs>ALMOND CHICKEN</xs>
+              <xs>
+                {" "}
+                <FontAwesomeIcon
+                  icon={faBrain}
+                  className="text-[#c6952b]"
+                  title="contains nut"
+                />
+                ALMOND CHICKEN
+              </xs>
               <xs>PORK FRIED RICE</xs>
               <xs>SWEET & SOUR PORK</xs>
               <xs>
@@ -123,6 +135,11 @@ export default function Specials() {
                   icon={faPepperHot}
                   className="text-red-700"
                   title="spicy"
+                />
+                <FontAwesomeIcon
+                  icon={faBrain}
+                  className="text-[#c6952b]"
+                  title="contains nut"
                 />
                 KUNG PAO CHICKEN or BEEF
               </li>
@@ -186,6 +203,11 @@ export default function Specials() {
                   className="text-red-700"
                   title="spicy"
                 />
+                <FontAwesomeIcon
+                  icon={faBrain}
+                  className="text-[#c6952b]"
+                  title="contains nut"
+                />
                 KUNG PAO FISH FILLET
               </li>
               <li>ORANGE CHICKEN</li>
@@ -220,6 +242,11 @@ export default function Specials() {
                   title="spicy"
                   className="text-red-700"
                 />
+                <FontAwesomeIcon
+                  icon={faBrain}
+                  className="text-[#c6952b]"
+                  title="contains nut"
+                />
                 KUNG PAO CHICKEN
               </xs>
             </div>
@@ -244,7 +271,14 @@ export default function Specials() {
               <xs>PORK FRIED RICE</xs>
               <xs>SPECIAL CHOW MEIN</xs>
               <xs className="font-medium text-md">FOR 3 PERSONS ADD :</xs>
-              <xs>CHICKEN ALMOND</xs>
+              <xs>
+                <FontAwesomeIcon
+                  icon={faBrain}
+                  className="text-[#c6952b]"
+                  title="contains nut"
+                />
+                CHICKEN ALMOND
+              </xs>
               <xs className="font-medium text-md">FOR 4 PERSONS ADD :</xs>
               <xs>BEEF BROCCOLI</xs>
             </div>
@@ -272,7 +306,14 @@ export default function Specials() {
                 EACH PERSON CHOOSES ONE ITEM BELOW :
               </xs>
               <div className="grid grid-cols-2 grid-rows-3 gap-x-2 flex justify-center items-center">
-                <li>CHICKEN ALMOND CHOW MEIN</li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faBrain}
+                    className="text-[#c6952b]"
+                    title="contains nut"
+                  />
+                  CHICKEN ALMOND CHOW MEIN
+                </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faShrimp}
@@ -294,6 +335,11 @@ export default function Specials() {
                     icon={faPepperHot}
                     className="text-red-700"
                     title="spicy"
+                  />
+                  <FontAwesomeIcon
+                    icon={faBrain}
+                    className="text-[#c6952b]"
+                    title="contains nut"
                   />
                   KUNG PAO BEEF
                 </li>
