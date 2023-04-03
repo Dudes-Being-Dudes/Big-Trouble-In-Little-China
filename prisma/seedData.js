@@ -225,7 +225,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498461/China%20Center/Food%20Items/Soup/plan_wtn_l_usuno0.jpg",
   },
   {
     name: "Plain Wonton Soup (S)",
@@ -268,7 +269,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 2,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498458/China%20Center/Food%20Items/Soup/pork_wtn_eqouzg.jpg",
   },
   {
     name: "Chicken Wonton and/or Noodle Soup",
@@ -443,7 +445,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 3,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498372/China%20Center/Food%20Items/Fried%20Rice/bf_rf_yttaoj.jpg",
   },
   {
     name: "Vegetable Fried Rice",
@@ -541,7 +544,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498445/China%20Center/Food%20Items/Noods/p_cm_nqebcu.jpg",
   },
   {
     name: "Vegetable Chow Mein",
@@ -613,7 +617,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498496/China%20Center/Food%20Items/Noods/tomato_beef_cm_vwbmqk.jpg",
   },
   {
     name: "B.B.Q. Pork Chow Mein",
@@ -742,7 +747,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498389/China%20Center/Food%20Items/Beef/bf_oyster_gmbiho.jpg",
   },
   {
     name: "Beef with Tomato",
@@ -917,7 +923,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498386/China%20Center/Food%20Items/Beef/bf_veg_lqjgfr.jpg",
   },
   {
     name: "Hunan Beef",
@@ -1156,7 +1163,7 @@ const Items = [
       "https://res.cloudinary.com/dsvltch46/image/upload/v1677366906/China%20Center/Food%20Items/Chicken/General_CH_iyxq3m.jpg",
   },
   {
-    name: "Chicken with Bitter Melon",
+    name: "Chicken with Bittermelon",
     price: 14.95,
     description: "stir fried chicken, bittermelon",
     isSpicy: false,
@@ -1166,7 +1173,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498400/China%20Center/Food%20Items/Chicken/ch_bittermelon_fwtmpy.jpg",
   },
   {
     name: "Chicken with Fresh Mushroom",
@@ -1179,7 +1187,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498403/China%20Center/Food%20Items/Chicken/ch_mushroom_srsdj0.jpg",
   },
   {
     name: "Green Bean Chicken",
@@ -1247,7 +1256,8 @@ const Items = [
     isGlutenFree: false,
     isNut: true,
     category_id: 7,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498432/China%20Center/Food%20Items/Veggie/kp_tofu_sdd0lx.jpg",
   },
   {
     name: "Mixed Vegetables",
@@ -1273,7 +1283,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 7,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498352/China%20Center/Food%20Items/Veggie/broccoli_zg5hn2.jpg",
   },
   {
     name: "Fried Tofu",
@@ -1288,6 +1299,35 @@ const Items = [
     category_id: 7,
     imageUrl: "",
   },
+  {
+    name: "Steamed Vegetables",
+    price: 12.95,
+    description: "Assortment of vegetables",
+    isSpicy: false,
+    isVegan: true,
+    isVegetarian: true,
+    isDairyFree: true,
+    isGlutenFree: false,
+    isNut: false,
+    category_id: 7,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498489/China%20Center/Food%20Items/Veggie/steamed_veg_gggayj.jpg",
+  },
+  {
+    name: "Beansprouts",
+    price: 12.95,
+    description: "beansprouts",
+    isSpicy: false,
+    isVegan: true,
+    isVegetarian: true,
+    isDairyFree: true,
+    isGlutenFree: false,
+    isNut: false,
+    category_id: 7,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498355/China%20Center/Food%20Items/Veggie/beansprouts_ljbkwc.jpg",
+  },
+
   {
     name: "Garlic Eggplant with Tofu",
     price: 12.95,
@@ -1447,7 +1487,7 @@ const Items = [
     isNut: false,
     category_id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016251/China%20Center/Food%20Items/Pork/pork_eggplant_xmoa20.jpg",
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498472/China%20Center/Food%20Items/Pork/pork_eggplant_vkzrrg.jpg",
   },
   {
     name: "Pork Bittermelon",
@@ -1611,7 +1651,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498482/China%20Center/Food%20Items/From%20The%20Sea/ss_shr_xajhi3.jpg",
   },
   {
     name: "Curry Shrimp",
@@ -1651,7 +1692,8 @@ const Items = [
     isGlutenFree: false,
     isNut: true,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498421/China%20Center/Food%20Items/From%20The%20Sea/kp_fish_r1cfya.jpg",
   },
   {
     name: "Fish Fillet with Vegetables",
@@ -1664,7 +1706,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498418/China%20Center/Food%20Items/From%20The%20Sea/fish_veg_jvbpev.jpg",
   },
   {
     name: "Cashew Shrimp",
