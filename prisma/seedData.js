@@ -124,7 +124,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 1,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126144/China%20Center/Food%20Items/Apps/app_for_2_i5yxxl.jpg",
   },
   {
     name: "French Fries",
@@ -761,7 +762,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126150/China%20Center/Food%20Items/Beef/beef_tomato_uwsj60.jpg",
   },
   {
     name: "Beef with Beansprouts",
@@ -868,7 +870,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240316/China%20Center/Food%20Items/Beef/bf_curry_sxorom.jpg",
   },
   {
     name: "Kung Pao Beef",
@@ -895,7 +898,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240324/China%20Center/Food%20Items/Beef/sze_bf_usq7xh.jpg",
   },
   {
     name: "Mongolian Beef",
@@ -1459,7 +1463,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240345/China%20Center/Food%20Items/Pork/pork_bok_choy_h4gqg1.jpg",
   },
   {
     name: "Ma Pao Tofu",
@@ -1624,7 +1629,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126167/China%20Center/Food%20Items/From%20The%20Sea/shr_lobster_kq5jcm.jpg",
   },
   {
     name: "Szechuan Shrimp",
@@ -1696,6 +1702,20 @@ const Items = [
       "https://res.cloudinary.com/dsvltch46/image/upload/v1680498421/China%20Center/Food%20Items/From%20The%20Sea/kp_fish_r1cfya.jpg",
   },
   {
+    name: "Kung Pao Squid",
+    price: 15.95,
+    description: "stir fried squid, hot chilis, veggies, peanuts",
+    isSpicy: true,
+    isVegan: false,
+    isVegetarian: false,
+    isDairyFree: true,
+    isGlutenFree: false,
+    isNut: true,
+    category_id: 10,
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126169/China%20Center/Food%20Items/From%20The%20Sea/kung_pao_squid_suf0wr.jpg",
+  },
+  {
     name: "Fish Fillet with Vegetables",
     price: 15.95,
     description: "stir fried fish fillet, veggies",
@@ -1761,7 +1781,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 10,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126174/China%20Center/Food%20Items/From%20The%20Sea/shr_snow_pea_b20uzc.jpg",
   },
   {
     name: "Shrimp Asparagus",

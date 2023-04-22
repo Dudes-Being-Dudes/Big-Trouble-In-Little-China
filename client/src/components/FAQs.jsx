@@ -15,6 +15,10 @@ const FAQs = () => {
             No, we only do first come first serve. If there is a specific table
             you want you will have to wait until it is available.
           </p>
+          <h2 className="font-extrabold text-4xl uppercase">Do you deliver?</h2>
+          <p className="ml-2 text-black">
+            No, unfortunately we do not have the resources to do delivery.
+          </p>
           <h2 className="font-extrabold text-4xl uppercase">
             I have a food allergy...what can i eat on your menu?
           </h2>

@@ -53,7 +53,7 @@ export default function Footer() {
                   ></input>{" "}
                   <small className="">
                     By signing up you are agreeing to receive marketing updates
-                    from China Center.
+                    from China Center Restaurant.
                   </small>
                 </div>
               </form>
@@ -110,7 +110,7 @@ export default function Footer() {
             <a className={styles.link} href="/covid19">
               Covid-19 Policy
             </a>
-            <a>@Copyright China Center</a>
+            <a>@Copyright China Center Restaurant</a>
           </div>
         </div>
       </div>
