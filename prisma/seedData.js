@@ -12,7 +12,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366657/China%20Center/Food%20Items/Apps/Eggroll_yj9gsj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/egg_roll_ac1joa.jpg",
   },
   {
     name: "Fried Wonton",
@@ -26,7 +26,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366674/China%20Center/Food%20Items/Apps/Fried_Wtn_ngrl96.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/fr_wtn_pfilzs.jpg",
   },
   {
     name: "Potstickers",
@@ -40,7 +40,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366679/China%20Center/Food%20Items/Apps/Pot_Stickers_at8ss2.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/potsticker_kvsemb.jpg",
   },
   {
     name: "Fried Prawns",
@@ -82,7 +82,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459944/China%20Center/Food%20Items/Apps/fr_ch_wing_bkwpz5.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_wings_q14p0f.jpg",
   },
   {
     name: "Fried Squid",
@@ -96,7 +96,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137749/China%20Center/Food%20Items/Apps/fried_squidies_cm3bcp.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/fr_squid_bc80kj.jpg",
   },
   {
     name: "Cream Cheese Crab Puff",
@@ -111,7 +111,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990647/China%20Center/Food%20Items/Apps/ccp_a0zda1.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/ccp_hpospu.jpg",
   },
   {
     name: "Assorted Appetizer (For 2)",
@@ -125,7 +125,7 @@ const Items = [
     isNut: false,
     category_id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126144/China%20Center/Food%20Items/Apps/app_for_2_i5yxxl.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139223/China%20Center%20Food%20Items/assorted_app_for_2_ax68su.jpg",
   },
   {
     name: "French Fries",
@@ -170,7 +170,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787814/China%20Center/Food%20Items/Soup/hot_n_sour_rzn0uh.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/hot_n_sour_n6qf7a.jpg",
   },
   {
     name: "Seaweed Soup",
@@ -185,7 +185,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366014/China%20Center/Food%20Items/Soup/Seaweed_Sp_fu1u0b.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/seaweed_sp_jedvbz.jpg",
   },
   {
     name: "Egg Flower Soup",
@@ -213,7 +213,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016156/China%20Center/Food%20Items/Soup/corn_ch_pyzyln.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139840/China%20Center%20Food%20Items/corn_ch_sp_za8o1c.jpg",
   },
   {
     name: "Plain Wonton Soup (L)",
@@ -227,7 +227,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498461/China%20Center/Food%20Items/Soup/plan_wtn_l_usuno0.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/plain_wtn_vozv36.jpg",
   },
   {
     name: "Plain Wonton Soup (S)",
@@ -241,7 +241,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366031/China%20Center/Food%20Items/Soup/Small_Wtn_rd4byo.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/sm_plain_wtn_zytbuu.jpg",
   },
   {
     name: "Shrimp Sizzling Rice Soup",
@@ -256,7 +256,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/siz_sp_laxbpt.jpg",
   },
   {
     name: "Pork Wonton and/or Noodle Soup",
@@ -270,8 +270,7 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 2,
-    imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498458/China%20Center/Food%20Items/Soup/pork_wtn_eqouzg.jpg",
+    imageUrl: "",
   },
   {
     name: "Chicken Wonton and/or Noodle Soup",
@@ -286,7 +285,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677365944/China%20Center/Food%20Items/Soup/Ch_Wtn_Ndl_vyucx0.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_noodle_cdvhlw.jpg",
   },
   {
     name: "Beef Wonton and/or Noodle Soup",
@@ -301,7 +300,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787275/China%20Center/Food%20Items/Soup/bf_wtn_mtjyy2.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/bf_wtn_gzrs0i.jpg",
   },
   {
     name: "Combo Sizzling Rice Soup",
@@ -316,7 +315,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366026/China%20Center/Food%20Items/Soup/Siz_Sp_cvfxmq.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/siz_sp_laxbpt.jpg",
   },
   {
     name: "Wor Wonton and/or Noodle Soup",
@@ -346,7 +345,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366020/China%20Center/Food%20Items/Soup/Shr_Wtn_jq83ub.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_wtn_lllkrf.jpg",
   },
   {
     name: "Seafood Wonton and/or Noodle Soup",
@@ -361,7 +360,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137780/China%20Center/Food%20Items/Soup/seafood_wtn_u59xbb.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/sf_wtn_cgeppe.jpg",
   },
   {
     name: "Seafood Sizzling Rice Soup",
@@ -376,7 +375,7 @@ const Items = [
     isNut: false,
     category_id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137773/China%20Center/Food%20Items/Soup/siz_sf_sp_yxicn8.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/siz_sp_laxbpt.jpg",
   },
   // Fried Rice
   {
@@ -391,7 +390,7 @@ const Items = [
     isNut: false,
     category_id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460033/China%20Center/Food%20Items/Fried%20Rice/sm_rice_txyd3i.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/st_rice_upqdgb.jpg",
   },
   {
     name: "Steamed Rice (L)",
@@ -419,7 +418,7 @@ const Items = [
     isNut: false,
     category_id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459821/China%20Center/Food%20Items/Fried%20Rice/ch_fried_rice_ripmsg.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_fr_dereo7.jpg",
   },
   {
     name: "Pork Fried Rice",
@@ -433,7 +432,7 @@ const Items = [
     isNut: false,
     category_id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367115/China%20Center/Food%20Items/Fried%20Rice/P_FR_z1c6i8.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/p_fr_jyi8a3.jpg",
   },
   {
     name: "Beef Fried Rice",
@@ -447,7 +446,7 @@ const Items = [
     isNut: false,
     category_id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498372/China%20Center/Food%20Items/Fried%20Rice/bf_rf_yttaoj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139223/China%20Center%20Food%20Items/bf_fr_sxxwk1.jpg",
   },
   {
     name: "Vegetable Fried Rice",
@@ -489,7 +488,7 @@ const Items = [
     isNut: false,
     category_id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787088/China%20Center/Food%20Items/Fried%20Rice/shr_fr_gqnuui.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_fr_fldhxp.jpg",
   },
 
   //Chow Mein
@@ -505,7 +504,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787173/China%20Center/Food%20Items/Noods/plain_cm_bie4u8.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/plain_cm_e2kzgc.jpg",
   },
   {
     name: "Chicken Chow Mein",
@@ -518,7 +517,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/ch_cm_t6e7vu.jpg",
   },
   {
     name: "Chicken Almond Chow Mein",
@@ -546,7 +546,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498445/China%20Center/Food%20Items/Noods/p_cm_nqebcu.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/pork_cm_v55o3p.jpg",
   },
   {
     name: "Vegetable Chow Mein",
@@ -561,7 +561,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787123/China%20Center/Food%20Items/Noods/veg_cm_sooolf.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/veg_cm_fstkpj.jpg",
   },
   {
     name: "Special Chow Mein",
@@ -590,7 +590,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367040/China%20Center/Food%20Items/Noods/Shr_Cm_d0cldk.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_cm_g649si.jpg",
   },
   {
     name: "Beef Chow Mein",
@@ -604,7 +604,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677367024/China%20Center/Food%20Items/Noods/Bf_CM_cyh005.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139223/China%20Center%20Food%20Items/bf_cm_fryy1p.jpg",
   },
   {
     name: "Beef Tomato Chow Mein",
@@ -619,7 +619,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498496/China%20Center/Food%20Items/Noods/tomato_beef_cm_vwbmqk.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/tomato_bf_cm_ig4iub.jpg",
   },
   {
     name: "B.B.Q. Pork Chow Mein",
@@ -632,7 +632,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 4,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/bbq_p_cm_tmxf6c.jpg",
   },
   {
     name: "Pansit",
@@ -691,7 +692,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787893/China%20Center/Food%20Items/Noods/singapore_chow_mein_mkpp8x.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/singapore_cm_s7mrrp.jpg",
   },
   {
     name: "House Pan Fried Noodle Sizzling Plate",
@@ -706,7 +707,7 @@ const Items = [
     isNut: false,
     category_id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677459991/China%20Center/Food%20Items/Noods/hot_plate_trw5wn.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/hot_plate_rwrpzz.jpg",
   },
   //Beef
   {
@@ -748,8 +749,7 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 5,
-    imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498389/China%20Center/Food%20Items/Beef/bf_oyster_gmbiho.jpg",
+    imageUrl: "",
   },
   {
     name: "Beef with Tomato",
@@ -763,7 +763,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126150/China%20Center/Food%20Items/Beef/beef_tomato_uwsj60.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/bf_tomato_fkmsgk.jpg",
   },
   {
     name: "Beef with Beansprouts",
@@ -791,7 +791,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137792/China%20Center/Food%20Items/Beef/bf_bok_choy_dekwxp.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139223/China%20Center%20Food%20Items/bf_bokchoy_zgiafj.jpg",
   },
   {
     name: "Beef with Tofu",
@@ -805,7 +805,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220759/China%20Center/Food%20Items/Beef/bf_tofu_xhuv67.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/bf_tofu_veg_r15sk2.jpg",
   },
   {
     name: "Beef with Cashew Nut",
@@ -871,7 +871,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240316/China%20Center/Food%20Items/Beef/bf_curry_sxorom.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/curry_bf_tzwgs5.jpg",
   },
   {
     name: "Kung Pao Beef",
@@ -885,7 +885,7 @@ const Items = [
     isNut: true,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787186/China%20Center/Food%20Items/Beef/kp_bf_vvfu4m.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/kp_bf_hy38rn.jpg",
   },
   {
     name: "Szechuan Beef",
@@ -899,7 +899,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240324/China%20Center/Food%20Items/Beef/sze_bf_usq7xh.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/sze_bf_yqfvar.jpg",
   },
   {
     name: "Mongolian Beef",
@@ -914,7 +914,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460071/China%20Center/Food%20Items/Beef/mong_bf_wcgrux.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/mong_bf_upcvta.jpg",
   },
   {
     name: "Beef Asparagus (Seasonal)",
@@ -942,7 +942,7 @@ const Items = [
     isNut: false,
     category_id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787852/China%20Center/Food%20Items/Beef/hunan_bf_naudfn.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/hunan_bf_ewfkgv.jpg",
   },
   {
     name: "Green Bean Beef",
@@ -986,7 +986,7 @@ const Items = [
     isNut: true,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366891/China%20Center/Food%20Items/Chicken/Ch_KungPo_wfj1kd.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/kp_ch_lizg3i.jpg",
   },
   {
     name: "Chicken with Broccoli",
@@ -999,7 +999,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 6,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/ch_broc_rni9fg.jpg",
   },
   {
     name: "Sweet & Sour Chicken",
@@ -1013,7 +1014,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220877/China%20Center/Food%20Items/Chicken/ss_chicken_s5g9kt.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/ss_ch_u2imqu.jpg",
   },
   {
     name: "Cashew Chicken",
@@ -1027,7 +1028,7 @@ const Items = [
     isNut: true,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787258/China%20Center/Food%20Items/Chicken/cashew_ch_snvy2a.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/cashew_ch_ppqscc.jpg",
   },
   {
     name: "Almond Chicken",
@@ -1054,7 +1055,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016121/China%20Center/Food%20Items/Chicken/ch_veg_vtlu0e.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_veg_nz2qw6.jpg",
   },
   {
     name: "Chicken with Chinese Green",
@@ -1081,7 +1082,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990668/China%20Center/Food%20Items/Chicken/curry_chicken_nplkok.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/curry_ch_n911m0.jpg",
   },
   {
     name: "Lemon Chicken",
@@ -1108,7 +1109,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016288/China%20Center/Food%20Items/Chicken/sesame_ch_nlcuc0.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/sesame_ch_pzl8sc.jpg",
   },
   {
     name: "Orange Chicken",
@@ -1122,7 +1123,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366925/China%20Center/Food%20Items/Chicken/Orange_Ch_ki0xuj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/or_ch_venppn.jpg",
   },
   {
     name: "Szechuan Chicken",
@@ -1150,7 +1151,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677990702/China%20Center/Food%20Items/Chicken/pineapple_ch_de74wj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/pineapple_ch_wa3jqh.jpg",
   },
   {
     name: "General's Chicken",
@@ -1178,7 +1179,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498400/China%20Center/Food%20Items/Chicken/ch_bittermelon_fwtmpy.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/ch_bittermelon_bzpib6.jpg",
   },
   {
     name: "Chicken with Fresh Mushroom",
@@ -1192,7 +1193,7 @@ const Items = [
     isNut: false,
     category_id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498403/China%20Center/Food%20Items/Chicken/ch_mushroom_srsdj0.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_mushroom_ov6wxy.jpg",
   },
   {
     name: "Green Bean Chicken",
@@ -1261,7 +1262,7 @@ const Items = [
     isNut: true,
     category_id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498432/China%20Center/Food%20Items/Veggie/kp_tofu_sdd0lx.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/kp_tofu_ijgjgu.jpg",
   },
   {
     name: "Mixed Vegetables",
@@ -1288,7 +1289,7 @@ const Items = [
     isNut: false,
     category_id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498352/China%20Center/Food%20Items/Veggie/broccoli_zg5hn2.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/st_broc_sefacc.jpg",
   },
   {
     name: "Fried Tofu",
@@ -1315,7 +1316,7 @@ const Items = [
     isNut: false,
     category_id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498489/China%20Center/Food%20Items/Veggie/steamed_veg_gggayj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/st_veg_ydknba.jpg",
   },
   {
     name: "Beansprouts",
@@ -1329,7 +1330,7 @@ const Items = [
     isNut: false,
     category_id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498355/China%20Center/Food%20Items/Veggie/beansprouts_ljbkwc.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139223/China%20Center%20Food%20Items/beansprouts_li8keb.jpg",
   },
 
   {
@@ -1344,7 +1345,7 @@ const Items = [
     isNut: false,
     category_id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016251/China%20Center/Food%20Items/Pork/pork_eggplant_xmoa20.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/eggplant_tofu_p9nvk1.jpg",
   },
   // Chop Suey & Egg Foo Yung
 
@@ -1361,7 +1362,7 @@ const Items = [
     isNut: false,
     category_id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016076/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/ch_egg_foo_yung_z5uwhs.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/egg_fu_yung_foih5s.jpg",
   },
 
   {
@@ -1377,7 +1378,7 @@ const Items = [
     isNut: false,
     category_id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787242/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/ho_su_tofu_bdpyel.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/ho_su_tofu_at0i84.jpg",
   },
   {
     name: "Chop Suey",
@@ -1392,7 +1393,7 @@ const Items = [
     isNut: false,
     category_id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787156/China%20Center/Food%20Items/Chop%20Suey%20Egg%20FY/special_cs_saibrj.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/sp_cs_khrzyu.jpg",
   },
 
   // Pork
@@ -1408,7 +1409,7 @@ const Items = [
     isNut: false,
     category_id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787104/China%20Center/Food%20Items/Pork/ss_p_jcx3c2.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/ss_pork_p4b0ua.jpg",
   },
   {
     name: "Pork with Beansprouts",
@@ -1464,10 +1465,10 @@ const Items = [
     isNut: false,
     category_id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1681240345/China%20Center/Food%20Items/Pork/pork_bok_choy_h4gqg1.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/pork_bokchoy_ud0ktr.jpg",
   },
   {
-    name: "Ma Pao Tofu",
+    name: "Mapo Tofu",
     price: 12.95,
     description: "steamed tofu, pork, green onions",
     isSpicy: true,
@@ -1478,7 +1479,7 @@ const Items = [
     isNut: false,
     category_id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137735/China%20Center/Food%20Items/Pork/mapo_tofu_m7zabm.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139228/China%20Center%20Food%20Items/mapo_tofu_whu9tz.jpg",
   },
   {
     name: "Garlic Eggplant with Pork",
@@ -1492,7 +1493,7 @@ const Items = [
     isNut: false,
     category_id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498472/China%20Center/Food%20Items/Pork/pork_eggplant_vkzrrg.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/eggplant_tofu_p9nvk1.jpg",
   },
   {
     name: "Pork Bittermelon",
@@ -1518,7 +1519,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/gar_pork_tcb4ur.jpg",
   },
   {
     name: "Chun King Pork",
@@ -1545,7 +1547,8 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 9,
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/sze_ch_xb4u1w.jpg",
   },
   {
     name: "Barbeque Pork with Broccoli",
@@ -1574,7 +1577,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366971/China%20Center/Food%20Items/From%20The%20Sea/Shr_Veg_c9dhvy.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_veg_ol3eou.jpg",
   },
   {
     name: "Kung Pao Seafood",
@@ -1589,7 +1592,7 @@ const Items = [
     isNut: true,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678137818/China%20Center/Food%20Items/From%20The%20Sea/kp_seafood_cowy7d.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/kp_sf_dqd5fq.jpg",
   },
   {
     name: "Shrimp with Chinese Green",
@@ -1616,7 +1619,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677366960/China%20Center/Food%20Items/From%20The%20Sea/Garlic_Shrimp_go2tgz.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/gar_shr_dfbouq.jpg",
   },
   {
     name: "Shrimp with Lobster Sauce",
@@ -1630,7 +1633,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126167/China%20Center/Food%20Items/From%20The%20Sea/shr_lobster_kq5jcm.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_lobster_sauce_ibx3pi.jpg",
   },
   {
     name: "Szechuan Shrimp",
@@ -1644,7 +1647,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015680/China%20Center/Food%20Items/From%20The%20Sea/sze_shr_p91gmc.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139231/China%20Center%20Food%20Items/sze_shr_xegmh6.jpg",
   },
   {
     name: "Sweet & Sour Shrimp",
@@ -1658,7 +1661,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498482/China%20Center/Food%20Items/From%20The%20Sea/ss_shr_xajhi3.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139230/China%20Center%20Food%20Items/ss_shr_geowwp.jpg",
   },
   {
     name: "Curry Shrimp",
@@ -1699,7 +1702,7 @@ const Items = [
     isNut: true,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1680498421/China%20Center/Food%20Items/From%20The%20Sea/kp_fish_r1cfya.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/kp_fish_a4wnni.jpg",
   },
   {
     name: "Kung Pao Squid",
@@ -1713,7 +1716,7 @@ const Items = [
     isNut: true,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126169/China%20Center/Food%20Items/From%20The%20Sea/kung_pao_squid_suf0wr.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/kp_squid_sxmpgl.jpg",
   },
   {
     name: "Fish Fillet with Vegetables",
@@ -1782,7 +1785,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1682126174/China%20Center/Food%20Items/From%20The%20Sea/shr_snow_pea_b20uzc.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_snowpea_wg3kwu.jpg",
   },
   {
     name: "Shrimp Asparagus",
@@ -1796,7 +1799,7 @@ const Items = [
     isNut: false,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677460137/China%20Center/Food%20Items/From%20The%20Sea/shr_asp_m9bqec.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_asp_oxuooh.jpg",
   },
   {
     name: "Seafood Vegetable",
@@ -1823,7 +1826,7 @@ const Items = [
     isNut: true,
     category_id: 10,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1677787142/China%20Center/Food%20Items/From%20The%20Sea/walnut_shr_lh2ads.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/honey_walnut_shr_mexyh0.jpg",
   },
   // Combination Plates
   {
@@ -1980,7 +1983,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015589/China%20Center/Food%20Items/Lunch/broc_bf_lunch_gw0i6t.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139224/China%20Center%20Food%20Items/broc_bf_lunch_p3kzjs.jpg",
   },
   {
     name: "Beef Green Pepper (Lunch)",
@@ -2020,7 +2023,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679016099/China%20Center/Food%20Items/Lunch/ch_lunch_zxks33.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139225/China%20Center%20Food%20Items/ch_cm_lunch_vdwukq.jpg",
   },
   {
     name: "Chicken Broccoli (Lunch)",
@@ -2033,8 +2036,7 @@ const Items = [
     isGlutenFree: false,
     isNut: false,
     category_id: 13,
-    imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1678220806/China%20Center/Food%20Items/Chicken/ch_broccoli_ri3kwa.jpg",
+    imageUrl: "",
   },
   {
     name: "Kung Pao Chicken or Beef (Lunch)",
@@ -2087,7 +2089,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015693/China%20Center/Food%20Items/Lunch/shr_cs_j5skzv.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139229/China%20Center%20Food%20Items/shr_cs_lunch_sarivg.jpg",
   },
   {
     name: "Shrimp Vegetable (Lunch)",
@@ -2114,7 +2116,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015648/China%20Center/Food%20Items/Lunch/gar_shr_lunch_ghrqcm.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/gar_shr_lunch_isrzkw.jpg",
   },
   {
     name: "Mongolian Beef (Lunch)",
@@ -2154,7 +2156,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015612/China%20Center/Food%20Items/Lunch/fish_veg_lunch_noylj1.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139226/China%20Center%20Food%20Items/fiosh_veg_lunch_hd7cwp.jpg",
   },
   {
     name: "General Chicken (Lunch)",
@@ -2168,7 +2170,7 @@ const Items = [
     isNut: false,
     category_id: 13,
     imageUrl:
-      "https://res.cloudinary.com/dsvltch46/image/upload/v1679015601/China%20Center/Food%20Items/Lunch/gen_ch_lunch_gfun4c.jpg",
+      "https://res.cloudinary.com/dsstyuakf/image/upload/v1685139227/China%20Center%20Food%20Items/gen_ch_lunch_evx31b.jpg",
   },
   {
     name: "Kung Pao Fish Fillet (Lunch)",
