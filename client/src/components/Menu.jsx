@@ -84,9 +84,9 @@ export default function Menu() {
                 <p>{item.description}</p>
                 {/* product price */}
 
-                <div>
+                {/* <div>
                   <span className="text-xl font-bold">${item.price}</span>
-                </div>
+                </div> */}
               </div>
             );
           })}

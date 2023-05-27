@@ -52,7 +52,7 @@ const ItemCard = ({ item }) => {
       </div>
       <h3 className="text-phoRed">{item.name}</h3>
       <p className="mx-4">{item.description}</p>
-      <p>${item.price}</p>
+      {/* <p>${item.price}</p> */}
     </div>
   );
 };
